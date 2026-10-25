@@ -1,0 +1,18 @@
+{
+  "name": "whatsapp",
+  "title": "Whatsapp",
+  "description": "用 WhatsApp 发消息（打开聊天并预填文案；默认用户点发送，可选无障碍自动发送）。用户说「用 WhatsApp 告诉…」时使用 ume_whatsapp_send。",
+  "category": "comms",
+  "license": "AGPL-3.0",
+  "size_kb": 1,
+  "compatibility": "any",
+  "source_url": null,
+  "is_bundled": true,
+  "origin": "bundled",
+  "tags": [
+    "bundled",
+    "ume"
+  ],
+  "raw_url": null,
+  "ume_install": "bundled"
+}

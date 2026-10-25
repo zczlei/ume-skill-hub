@@ -1,0 +1,18 @@
+{
+  "name": "maps",
+  "title": "Maps",
+  "description": "地图导航与路线。用户说「导航到…」「从A到B」时必须用 ume_maps_navigate / ume_maps_show，禁止浏览器搜路。",
+  "category": "maps",
+  "license": "AGPL-3.0",
+  "size_kb": 1,
+  "compatibility": "any",
+  "source_url": null,
+  "is_bundled": true,
+  "origin": "bundled",
+  "tags": [
+    "bundled",
+    "ume"
+  ],
+  "raw_url": null,
+  "ume_install": "bundled"
+}

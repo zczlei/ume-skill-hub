@@ -1,0 +1,23 @@
+{
+  "name": "ume-translate",
+  "title": "翻译",
+  "description": "翻译剪贴板、选中文字或用户粘贴的段落；可指定目标语言。纯编排 skill，适配微米 AI。",
+  "category": "productivity",
+  "license": "AGPL-3.0",
+  "size_kb": 2,
+  "compatibility": "any",
+  "source_url": "https://ume-skill-hub.pages.dev/skills/ume-translate/SKILL.md",
+  "is_bundled": false,
+  "origin": "hosted",
+  "tags": [
+    "hosted",
+    "ume",
+    "translation",
+    "1.md",
+    "mobile"
+  ],
+  "installable": true,
+  "wishlist": false,
+  "raw_url": "https://ume-skill-hub.pages.dev/skills/ume-translate/SKILL.md",
+  "ume_install": "skill_install_from_url"
+}

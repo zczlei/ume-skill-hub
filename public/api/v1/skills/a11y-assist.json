@@ -1,0 +1,18 @@
+{
+  "name": "a11y-assist",
+  "title": "A11y Assist",
+  "description": "无障碍辅助：锁屏、清后台、快捷设置开关 Wi‑Fi/蓝牙/飞行模式、省电模式、电源菜单。用户说「锁屏」「清理后台」「打开wifi」「开省电」「重启」时使用。",
+  "category": "device",
+  "license": "AGPL-3.0",
+  "size_kb": 1,
+  "compatibility": "any",
+  "source_url": null,
+  "is_bundled": true,
+  "origin": "bundled",
+  "tags": [
+    "bundled",
+    "ume"
+  ],
+  "raw_url": null,
+  "ume_install": "bundled"
+}

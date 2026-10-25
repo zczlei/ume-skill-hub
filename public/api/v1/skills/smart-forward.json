@@ -1,0 +1,18 @@
+{
+  "name": "smart-forward",
+  "title": "Smart Forward",
+  "description": "Catch a notification from one app and forward its content to a contact in another (typically Telegram), with a one-line summary the recipient can act on. Useful for sharing OTPs, package tracking updates, news alerts, or \"did you see this\" moments.",
+  "category": "comms",
+  "license": "AGPL-3.0",
+  "size_kb": 4,
+  "compatibility": "any",
+  "source_url": null,
+  "is_bundled": true,
+  "origin": "bundled",
+  "tags": [
+    "bundled",
+    "ume"
+  ],
+  "raw_url": null,
+  "ume_install": "bundled"
+}

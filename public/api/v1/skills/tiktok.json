@@ -1,0 +1,18 @@
+{
+  "name": "tiktok",
+  "title": "Tiktok",
+  "description": "在 TikTok 中搜索。用户说「在抖音/TikTok 搜…」时使用 ume_tiktok_search。",
+  "category": "media",
+  "license": "AGPL-3.0",
+  "size_kb": 1,
+  "compatibility": "any",
+  "source_url": null,
+  "is_bundled": true,
+  "origin": "bundled",
+  "tags": [
+    "bundled",
+    "ume"
+  ],
+  "raw_url": null,
+  "ume_install": "bundled"
+}

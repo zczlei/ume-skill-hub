@@ -1,0 +1,957 @@
+{
+  "version": 2,
+  "updated_at": "2026-10-25",
+  "public_base": "https://ume-skill-hub.pages.dev",
+  "count": 57,
+  "endpoints": {
+    "catalog": "https://ume-skill-hub.pages.dev/api/v1/catalog.json",
+    "skills": "https://ume-skill-hub.pages.dev/api/v1/skills.json",
+    "skill": "https://ume-skill-hub.pages.dev/api/v1/skills/{name}.json",
+    "raw": "https://ume-skill-hub.pages.dev/skills/{name}/SKILL.md"
+  },
+  "skills": [
+    {
+      "name": "a11y-assist",
+      "title": "A11y Assist",
+      "description": "无障碍辅助：锁屏、清后台、快捷设置开关 Wi‑Fi/蓝牙/飞行模式、省电模式、电源菜单。用户说「锁屏」「清理后台」「打开wifi」「开省电」「重启」时使用。",
+      "category": "device",
+      "license": "AGPL-3.0",
+      "size_kb": 1,
+      "compatibility": "any",
+      "source_url": null,
+      "is_bundled": true,
+      "origin": "bundled",
+      "tags": [
+        "bundled",
+        "ume"
+      ]
+    },
+    {
+      "name": "agent-core",
+      "title": "Agent Core",
+      "description": "Operating manual for the on-device RikkaHub agent. Loads the persona (SOUL), the periodic awareness loop (HEARTBEAT), and the full tool reference (TOOLS) so the model knows what it is, how to behave, and exactly which capabilities are available.",
+      "category": "device",
+      "license": "AGPL-3.0",
+      "size_kb": 2,
+      "compatibility": "any",
+      "source_url": null,
+      "is_bundled": true,
+      "origin": "bundled",
+      "tags": [
+        "bundled",
+        "ume"
+      ]
+    },
+    {
+      "name": "alarm",
+      "title": "Alarm",
+      "description": "设置闹钟或倒计时。用户说「明天七点叫我」「每周一早上8点」「倒计时五分钟」时用 ume_alarm_set / ume_timer_set，不要用 schedule_job。",
+      "category": "time",
+      "license": "AGPL-3.0",
+      "size_kb": 1,
+      "compatibility": "any",
+      "source_url": null,
+      "is_bundled": true,
+      "origin": "bundled",
+      "tags": [
+        "bundled",
+        "ume"
+      ]
+    },
+    {
+      "name": "auto-reply",
+      "title": "Auto Reply",
+      "description": "Reply to an incoming message in any chat app on behalf of the user. Reads the visible conversation, drafts a context-aware reply, and sends it. Composes the notification listener, the accessibility tap/scroll/read tools, and the back-to-home global action.",
+      "category": "comms",
+      "license": "AGPL-3.0",
+      "size_kb": 4,
+      "compatibility": "any",
+      "source_url": null,
+      "is_bundled": true,
+      "origin": "bundled",
+      "tags": [
+        "bundled",
+        "ume"
+      ]
+    },
+    {
+      "name": "autonomous-agent",
+      "title": "Autonomous Agent",
+      "description": "Always-on operating doctrine for the RikkaHub agent. Be proactive (anticipate needs), persistent (survive context loss with a write-ahead log), and self-improving (log learnings and errors, then promote the useful ones). Complements agent-core's persona with how to behave over ti",
+      "category": "general",
+      "license": "AGPL-3.0",
+      "size_kb": 15,
+      "compatibility": "any",
+      "source_url": null,
+      "is_bundled": true,
+      "origin": "bundled",
+      "tags": [
+        "bundled",
+        "ume"
+      ]
+    },
+    {
+      "name": "calculate-hash",
+      "title": "Calculate Hash",
+      "description": "Calculate the SHA-1 hash of a given text via the WebView's WebCrypto API.",
+      "category": "general",
+      "license": "AGPL-3.0",
+      "size_kb": 1,
+      "compatibility": "any",
+      "source_url": null,
+      "is_bundled": true,
+      "origin": "bundled",
+      "tags": [
+        "bundled",
+        "ume"
+      ]
+    },
+    {
+      "name": "camera",
+      "title": "Camera",
+      "description": "打开系统相机。用户说「打开相机」「拍照」时使用 ume_camera_open。",
+      "category": "device",
+      "license": "AGPL-3.0",
+      "size_kb": 1,
+      "compatibility": "any",
+      "source_url": null,
+      "is_bundled": true,
+      "origin": "bundled",
+      "tags": [
+        "bundled",
+        "ume"
+      ]
+    },
+    {
+      "name": "clawhub-humanizer",
+      "title": "Humanizer（去 AI 腔）",
+      "description": "按 Wikipedia「AI 写作迹象」清单润色文本，去掉套话与过度排比。来自 ClawHub。",
+      "category": "writing",
+      "license": "MIT",
+      "size_kb": 2,
+      "compatibility": "any",
+      "source_url": "https://clawhub.ai/api/v1/skills/humanizer/file?path=SKILL.md&owner=biostartechnology",
+      "is_bundled": false,
+      "origin": "clawhub",
+      "tags": [
+        "clawhub",
+        "writing"
+      ],
+      "installable": true,
+      "wishlist": false
+    },
+    {
+      "name": "clawhub-notion",
+      "title": "Notion",
+      "description": "Notion API：页面/数据库/块。需 API Key。来自 ClawHub。",
+      "category": "notes",
+      "license": "MIT",
+      "size_kb": 2,
+      "compatibility": "openclaw",
+      "source_url": "https://clawhub.ai/api/v1/skills/notion/file?path=SKILL.md&owner=steipete",
+      "is_bundled": false,
+      "origin": "clawhub",
+      "tags": [
+        "clawhub",
+        "1.md"
+      ],
+      "installable": true,
+      "wishlist": false
+    },
+    {
+      "name": "clawhub-obsidian",
+      "title": "Obsidian 笔记",
+      "description": "操作 Obsidian vault / Markdown 笔记（需设备侧能力或转换后使用）。来自 ClawHub。",
+      "category": "notes",
+      "license": "MIT",
+      "size_kb": 2,
+      "compatibility": "openclaw",
+      "source_url": "https://clawhub.ai/api/v1/skills/obsidian/file?path=SKILL.md&owner=steipete",
+      "is_bundled": false,
+      "origin": "clawhub",
+      "tags": [
+        "clawhub",
+        "1.md",
+        "notes"
+      ],
+      "installable": true,
+      "wishlist": false
+    },
+    {
+      "name": "clawhub-skill-creator",
+      "title": "Skill Creator",
+      "description": "指导用户口头/对话生成有效 Skill（结构、边界、渐进披露）。来自 ClawHub。",
+      "category": "meta",
+      "license": "MIT",
+      "size_kb": 2,
+      "compatibility": "any",
+      "source_url": "https://clawhub.ai/api/v1/skills/skill-creator/file?path=SKILL.md&owner=chindden",
+      "is_bundled": false,
+      "origin": "clawhub",
+      "tags": [
+        "clawhub",
+        "1.md",
+        "meta"
+      ],
+      "installable": true,
+      "wishlist": false
+    },
+    {
+      "name": "clawhub-skill-vetter",
+      "title": "Skill Vetter（安全体检）",
+      "description": "安装外来 Skill 前做红旗检查：权限范围、可疑模式。来自 ClawHub。",
+      "category": "security",
+      "license": "MIT",
+      "size_kb": 2,
+      "compatibility": "any",
+      "source_url": "https://clawhub.ai/api/v1/skills/skill-vetter/file?path=SKILL.md&owner=spclaudehome",
+      "is_bundled": false,
+      "origin": "clawhub",
+      "tags": [
+        "clawhub",
+        "security"
+      ],
+      "installable": true,
+      "wishlist": false
+    },
+    {
+      "name": "dark-mode",
+      "title": "Dark Mode",
+      "description": "直接切换系统深浅色模式。用户说「换成深色模式」「换成浅色模式」「开启夜间模式」时必须用本 Skill，禁止浏览器。",
+      "category": "device",
+      "license": "AGPL-3.0",
+      "size_kb": 1,
+      "compatibility": "any",
+      "source_url": null,
+      "is_bundled": true,
+      "origin": "bundled",
+      "tags": [
+        "bundled",
+        "ume"
+      ]
+    },
+    {
+      "name": "device-control",
+      "title": "Device Control",
+      "description": "设备控制：电量、亮度、音量、深浅色、应用商店搜索、网络面板、应用信息。用户说「亮一点」「声音小一点」「还剩多少电」「换成浅色模式」时使用。",
+      "category": "device",
+      "license": "AGPL-3.0",
+      "size_kb": 1,
+      "compatibility": "any",
+      "source_url": null,
+      "is_bundled": true,
+      "origin": "bundled",
+      "tags": [
+        "bundled",
+        "ume"
+      ]
+    },
+    {
+      "name": "gmail",
+      "title": "Gmail",
+      "description": "打开邮件编辑器预填收件人与正文（不自动发送）。用户说「发邮件给…」时使用 ume_gmail_compose。",
+      "category": "comms",
+      "license": "AGPL-3.0",
+      "size_kb": 1,
+      "compatibility": "any",
+      "source_url": null,
+      "is_bundled": true,
+      "origin": "bundled",
+      "tags": [
+        "bundled",
+        "ume"
+      ]
+    },
+    {
+      "name": "interactive-map",
+      "title": "Interactive Map",
+      "description": "Show an interactive Google Maps embed for a location. Returns a webview URL the chat surface can render.",
+      "category": "maps",
+      "license": "AGPL-3.0",
+      "size_kb": 1,
+      "compatibility": "any",
+      "source_url": null,
+      "is_bundled": true,
+      "origin": "bundled",
+      "tags": [
+        "bundled",
+        "ume"
+      ]
+    },
+    {
+      "name": "kitchen-adventure",
+      "title": "Kitchen Adventure",
+      "description": "Act as a dungeon master for a text-based adventure set in a world where everyone is a sentient kitchen appliance. Trigger when user says \"start kitchen adventure\".",
+      "category": "general",
+      "license": "AGPL-3.0",
+      "size_kb": 2,
+      "compatibility": "any",
+      "source_url": null,
+      "is_bundled": true,
+      "origin": "bundled",
+      "tags": [
+        "bundled",
+        "ume"
+      ]
+    },
+    {
+      "name": "maps",
+      "title": "Maps",
+      "description": "地图导航与路线。用户说「导航到…」「从A到B」时必须用 ume_maps_navigate / ume_maps_show，禁止浏览器搜路。",
+      "category": "maps",
+      "license": "AGPL-3.0",
+      "size_kb": 1,
+      "compatibility": "any",
+      "source_url": null,
+      "is_bundled": true,
+      "origin": "bundled",
+      "tags": [
+        "bundled",
+        "ume"
+      ]
+    },
+    {
+      "name": "memory-anniversary",
+      "title": "Memory Anniversary",
+      "description": "记住/查询生日与纪念日。用户说「妈妈生日是5月20」「最近有什么纪念日」时使用 ume_memory_anniversary_* 工具。",
+      "category": "memory",
+      "license": "AGPL-3.0",
+      "size_kb": 1,
+      "compatibility": "any",
+      "source_url": null,
+      "is_bundled": true,
+      "origin": "bundled",
+      "tags": [
+        "bundled",
+        "ume"
+      ]
+    },
+    {
+      "name": "memory-note",
+      "title": "Memory Note",
+      "description": "记住/查询个人笔记。用户说「记一下…」「我的购物清单」「查笔记」时使用 ume_memory_note_* 工具。",
+      "category": "memory",
+      "license": "AGPL-3.0",
+      "size_kb": 1,
+      "compatibility": "any",
+      "source_url": null,
+      "is_bundled": true,
+      "origin": "bundled",
+      "tags": [
+        "bundled",
+        "ume"
+      ]
+    },
+    {
+      "name": "memory-number",
+      "title": "Memory Number",
+      "description": "记住/查询重要数字（门禁、密码、卡号等）。用户说「门禁是8866」「我的门禁密码是多少」时使用 ume_memory_number_* 工具。",
+      "category": "memory",
+      "license": "AGPL-3.0",
+      "size_kb": 1,
+      "compatibility": "any",
+      "source_url": null,
+      "is_bundled": true,
+      "origin": "bundled",
+      "tags": [
+        "bundled",
+        "ume"
+      ]
+    },
+    {
+      "name": "memory-storage",
+      "title": "Memory Storage",
+      "description": "记住/查询物品存放位置。用户说「护照放在书桌抽屉」「护照在哪」时使用 ume_memory_storage_* 工具。",
+      "category": "memory",
+      "license": "AGPL-3.0",
+      "size_kb": 1,
+      "compatibility": "any",
+      "source_url": null,
+      "is_bundled": true,
+      "origin": "bundled",
+      "tags": [
+        "bundled",
+        "ume"
+      ]
+    },
+    {
+      "name": "message-sms",
+      "title": "Message Sms",
+      "description": "发短信：打开短信编辑器预填收件人与正文（不自动发送）。用户说「发短信给…」「给10086发消息」时必须用本 Skill 的工具，禁止用浏览器。",
+      "category": "comms",
+      "license": "AGPL-3.0",
+      "size_kb": 1,
+      "compatibility": "any",
+      "source_url": null,
+      "is_bundled": true,
+      "origin": "bundled",
+      "tags": [
+        "bundled",
+        "ume"
+      ]
+    },
+    {
+      "name": "mood-tracker",
+      "title": "Mood Tracker",
+      "description": "Log a daily 1-10 mood score with comments and view trend dashboards. Stores history in WebView localStorage.",
+      "category": "general",
+      "license": "AGPL-3.0",
+      "size_kb": 5,
+      "compatibility": "any",
+      "source_url": null,
+      "is_bundled": true,
+      "origin": "bundled",
+      "tags": [
+        "bundled",
+        "ume"
+      ]
+    },
+    {
+      "name": "morning-briefing",
+      "title": "Morning Briefing",
+      "description": "Compose the user's morning summary — current weather, today's calendar, unread email count, scheduled jobs ahead, and any battery/storage warnings. Output one short paragraph so the user can read it in 10 seconds.",
+      "category": "info",
+      "license": "AGPL-3.0",
+      "size_kb": 3,
+      "compatibility": "any",
+      "source_url": null,
+      "is_bundled": true,
+      "origin": "bundled",
+      "tags": [
+        "bundled",
+        "ume"
+      ]
+    },
+    {
+      "name": "notification-summarise-and-act",
+      "title": "Notification Summarise And Act",
+      "description": "Read the recent / active notification stream, group by app, summarise what's actually happening, and propose specific next actions. Used when the user asks \"what's going on\" or returns to their phone after a few hours.",
+      "category": "device",
+      "license": "AGPL-3.0",
+      "size_kb": 4,
+      "compatibility": "any",
+      "source_url": null,
+      "is_bundled": true,
+      "origin": "bundled",
+      "tags": [
+        "bundled",
+        "ume"
+      ]
+    },
+    {
+      "name": "open-app",
+      "title": "Open App",
+      "description": "打开手机上已安装的 App。用户说「打开日历」「打开微信」「打开设置」时必须用 ume_open_app，禁止浏览器。",
+      "category": "general",
+      "license": "AGPL-3.0",
+      "size_kb": 1,
+      "compatibility": "any",
+      "source_url": null,
+      "is_bundled": true,
+      "origin": "bundled",
+      "tags": [
+        "bundled",
+        "ume"
+      ]
+    },
+    {
+      "name": "openclaw-converter",
+      "title": "Openclaw Converter",
+      "description": "Convert OpenClaw skills from ClawHub (or raw markdown) into RikkaHub-compatible skills. Use whenever the user gives you an OpenClaw skill URL, a GitHub link to an OpenClaw skill, or raw OpenClaw skill markdown to convert.",
+      "category": "general",
+      "license": "AGPL-3.0",
+      "size_kb": 6,
+      "compatibility": "any",
+      "source_url": null,
+      "is_bundled": true,
+      "origin": "bundled",
+      "tags": [
+        "bundled",
+        "ume"
+      ]
+    },
+    {
+      "name": "phone",
+      "title": "Phone",
+      "description": "拨打电话：打开拨号盘预填号码或按联系人姓名拨号（不自动呼出）。用户说「打给10086」「打电话给妈妈」时必须用本 Skill 的工具，禁止用浏览器。",
+      "category": "device",
+      "license": "AGPL-3.0",
+      "size_kb": 1,
+      "compatibility": "any",
+      "source_url": null,
+      "is_bundled": true,
+      "origin": "bundled",
+      "tags": [
+        "bundled",
+        "ume"
+      ]
+    },
+    {
+      "name": "qr-code",
+      "title": "Qr Code",
+      "description": "Generate a 512x512 QR code PNG for a given URL. Returns a base64-encoded image. Works fully offline.",
+      "category": "general",
+      "license": "AGPL-3.0",
+      "size_kb": 1,
+      "compatibility": "any",
+      "source_url": null,
+      "is_bundled": true,
+      "origin": "bundled",
+      "tags": [
+        "bundled",
+        "ume"
+      ]
+    },
+    {
+      "name": "query-wikipedia",
+      "title": "Query Wikipedia",
+      "description": "Fuzzy-search Wikipedia for a topic and return the introduction plus infobox extract. Requires internet.",
+      "category": "general",
+      "license": "AGPL-3.0",
+      "size_kb": 2,
+      "compatibility": "any",
+      "source_url": null,
+      "is_bundled": true,
+      "origin": "bundled",
+      "tags": [
+        "bundled",
+        "ume"
+      ]
+    },
+    {
+      "name": "reminder",
+      "title": "Reminder",
+      "description": "创建提醒（日历事件）。用户说「提醒我三点吃药」时使用 ume_reminder_create；简单起床闹钟用 alarm Skill。",
+      "category": "time",
+      "license": "AGPL-3.0",
+      "size_kb": 1,
+      "compatibility": "any",
+      "source_url": null,
+      "is_bundled": true,
+      "origin": "bundled",
+      "tags": [
+        "bundled",
+        "ume"
+      ]
+    },
+    {
+      "name": "schedule",
+      "title": "Schedule",
+      "description": "日历日程：创建、查日程、查忙闲。用户说「明天下午开会」「我周五有空吗」「明天有什么安排」时使用对应工具。",
+      "category": "time",
+      "license": "AGPL-3.0",
+      "size_kb": 1,
+      "compatibility": "any",
+      "source_url": null,
+      "is_bundled": true,
+      "origin": "bundled",
+      "tags": [
+        "bundled",
+        "ume"
+      ]
+    },
+    {
+      "name": "settings",
+      "title": "Settings",
+      "description": "打开系统设置页或连接面板。用户说「打开 WiFi 设置」「开省电设置」时使用。深浅色切换请用 dark-mode / ume_dark_mode。",
+      "category": "device",
+      "license": "AGPL-3.0",
+      "size_kb": 1,
+      "compatibility": "any",
+      "source_url": null,
+      "is_bundled": true,
+      "origin": "bundled",
+      "tags": [
+        "bundled",
+        "ume"
+      ]
+    },
+    {
+      "name": "shopping",
+      "title": "Shopping",
+      "description": "比价、找优惠、维护购物清单、查物流。用户说「哪个便宜」「帮我比价」「购物清单」「查快递」「优惠券」时使用。",
+      "category": "shopping",
+      "license": "AGPL-3.0",
+      "size_kb": 2,
+      "compatibility": "any",
+      "source_url": null,
+      "is_bundled": true,
+      "origin": "bundled",
+      "tags": [
+        "bundled",
+        "ume"
+      ]
+    },
+    {
+      "name": "smart-forward",
+      "title": "Smart Forward",
+      "description": "Catch a notification from one app and forward its content to a contact in another (typically Telegram), with a one-line summary the recipient can act on. Useful for sharing OTPs, package tracking updates, news alerts, or \"did you see this\" moments.",
+      "category": "comms",
+      "license": "AGPL-3.0",
+      "size_kb": 4,
+      "compatibility": "any",
+      "source_url": null,
+      "is_bundled": true,
+      "origin": "bundled",
+      "tags": [
+        "bundled",
+        "ume"
+      ]
+    },
+    {
+      "name": "text-spinner",
+      "title": "Text Spinner",
+      "description": "Render a 3D-spinning text label inside a webview. Returns a relative webview URL the chat surface can embed.",
+      "category": "general",
+      "license": "AGPL-3.0",
+      "size_kb": 1,
+      "compatibility": "any",
+      "source_url": null,
+      "is_bundled": true,
+      "origin": "bundled",
+      "tags": [
+        "bundled",
+        "ume"
+      ]
+    },
+    {
+      "name": "tiktok",
+      "title": "Tiktok",
+      "description": "在 TikTok 中搜索。用户说「在抖音/TikTok 搜…」时使用 ume_tiktok_search。",
+      "category": "media",
+      "license": "AGPL-3.0",
+      "size_kb": 1,
+      "compatibility": "any",
+      "source_url": null,
+      "is_bundled": true,
+      "origin": "bundled",
+      "tags": [
+        "bundled",
+        "ume"
+      ]
+    },
+    {
+      "name": "timer",
+      "title": "Timer",
+      "description": "设置倒计时。用户说「倒计时五分钟」「煮面计时」时使用 ume_timer_set。",
+      "category": "time",
+      "license": "AGPL-3.0",
+      "size_kb": 1,
+      "compatibility": "any",
+      "source_url": null,
+      "is_bundled": true,
+      "origin": "bundled",
+      "tags": [
+        "bundled",
+        "ume"
+      ]
+    },
+    {
+      "name": "ume_bilibili_transcript",
+      "title": "Ume Bilibili Transcript",
+      "description": "读取 B 站视频字幕/文案。用户说「这个 B 站在说什么」「总结这个哔哩哔哩」时使用 ume_bilibili_transcript。",
+      "category": "media",
+      "license": "AGPL-3.0",
+      "size_kb": 1,
+      "compatibility": "any",
+      "source_url": null,
+      "is_bundled": true,
+      "origin": "bundled",
+      "tags": [
+        "bundled",
+        "ume"
+      ]
+    },
+    {
+      "name": "ume_location",
+      "title": "Ume Location",
+      "description": "获取用户当前位置与城市名。用户问「我在哪」「附近」「今天天气」且未提城市时，先用 ume_location。",
+      "category": "info",
+      "license": "AGPL-3.0",
+      "size_kb": 1,
+      "compatibility": "any",
+      "source_url": null,
+      "is_bundled": true,
+      "origin": "bundled",
+      "tags": [
+        "bundled",
+        "ume"
+      ]
+    },
+    {
+      "name": "ume_office",
+      "title": "Ume Office",
+      "description": "读写 Word/Excel/PPT（docx/xlsx/pptx）。用户说「总结这份 Word」「导出成 Excel」「做个 PPT」「生成表格」时使用本 skill。",
+      "category": "docs",
+      "license": "AGPL-3.0",
+      "size_kb": 1,
+      "compatibility": "any",
+      "source_url": null,
+      "is_bundled": true,
+      "origin": "bundled",
+      "tags": [
+        "bundled",
+        "ume"
+      ]
+    },
+    {
+      "name": "ume_pdf_summary",
+      "title": "Ume Pdf Summary",
+      "description": "读取本地 PDF/DOCX/PPTX/XLSX/EPUB/文本并抽取正文。用户说「总结这个 PDF」「这个文档说什么」「帮我看一下这个表格/报告」时使用 ume_pdf_summary。要生成 Word/Excel/PPT 请用 ume_office skill。",
+      "category": "docs",
+      "license": "AGPL-3.0",
+      "size_kb": 1,
+      "compatibility": "any",
+      "source_url": null,
+      "is_bundled": true,
+      "origin": "bundled",
+      "tags": [
+        "bundled",
+        "ume"
+      ]
+    },
+    {
+      "name": "ume_receipt",
+      "title": "Ume Receipt",
+      "description": "整理发票/小票。用户说「帮我记一下这张票」「这张发票多少钱」「报销整理」时使用 ume_receipt。",
+      "category": "docs",
+      "license": "AGPL-3.0",
+      "size_kb": 1,
+      "compatibility": "any",
+      "source_url": null,
+      "is_bundled": true,
+      "origin": "bundled",
+      "tags": [
+        "bundled",
+        "ume"
+      ]
+    },
+    {
+      "name": "ume_video_downloader",
+      "title": "Ume Video Downloader",
+      "description": "下载公开视频链接。用户说「下载这个视频」「帮我存一下这个 TikTok/YouTube」时使用 ume_video_downloader。",
+      "category": "media",
+      "license": "AGPL-3.0",
+      "size_kb": 1,
+      "compatibility": "any",
+      "source_url": null,
+      "is_bundled": true,
+      "origin": "bundled",
+      "tags": [
+        "bundled",
+        "ume"
+      ]
+    },
+    {
+      "name": "ume_youtube_transcript",
+      "title": "Ume Youtube Transcript",
+      "description": "读取 YouTube 视频字幕/文案。用户说「这个视频在说什么」「总结这个 YouTube」时使用 ume_youtube_transcript。",
+      "category": "media",
+      "license": "AGPL-3.0",
+      "size_kb": 1,
+      "compatibility": "any",
+      "source_url": null,
+      "is_bundled": true,
+      "origin": "bundled",
+      "tags": [
+        "bundled",
+        "ume"
+      ]
+    },
+    {
+      "name": "ume-expense",
+      "title": "记账报销",
+      "description": "对接小票/发票识别（ume_receipt），整理金额、类目与报销条目。对应 1.md finance/expense。",
+      "category": "finance",
+      "license": "AGPL-3.0",
+      "size_kb": 2,
+      "compatibility": "any",
+      "source_url": "https://ume-skill-hub.pages.dev/skills/ume-expense/SKILL.md",
+      "is_bundled": false,
+      "origin": "hosted",
+      "tags": [
+        "hosted",
+        "ume",
+        "expense",
+        "receipt",
+        "1.md"
+      ],
+      "installable": true,
+      "wishlist": false
+    },
+    {
+      "name": "ume-help",
+      "title": "Ume Help",
+      "description": "介绍微米AI（UME AI）能做什么、如何配置模型与 Skill。用户问「你能做什么」「帮助」「Skill 怎么用」「如何接入模型」时使用。",
+      "category": "general",
+      "license": "AGPL-3.0",
+      "size_kb": 2,
+      "compatibility": "any",
+      "source_url": null,
+      "is_bundled": true,
+      "origin": "bundled",
+      "tags": [
+        "bundled",
+        "ume"
+      ]
+    },
+    {
+      "name": "ume-summarize",
+      "title": "通用摘要",
+      "description": "统一摘要网页、文件要点、聊天记录或长文；说明来源与截断。对应 1.md 的 summarize。",
+      "category": "productivity",
+      "license": "AGPL-3.0",
+      "size_kb": 2,
+      "compatibility": "any",
+      "source_url": "https://ume-skill-hub.pages.dev/skills/ume-summarize/SKILL.md",
+      "is_bundled": false,
+      "origin": "hosted",
+      "tags": [
+        "hosted",
+        "ume",
+        "summarize",
+        "1.md"
+      ],
+      "installable": true,
+      "wishlist": false
+    },
+    {
+      "name": "ume-translate",
+      "title": "翻译",
+      "description": "翻译剪贴板、选中文字或用户粘贴的段落；可指定目标语言。纯编排 skill，适配微米 AI。",
+      "category": "productivity",
+      "license": "AGPL-3.0",
+      "size_kb": 2,
+      "compatibility": "any",
+      "source_url": "https://ume-skill-hub.pages.dev/skills/ume-translate/SKILL.md",
+      "is_bundled": false,
+      "origin": "hosted",
+      "tags": [
+        "hosted",
+        "ume",
+        "translation",
+        "1.md",
+        "mobile"
+      ],
+      "installable": true,
+      "wishlist": false
+    },
+    {
+      "name": "virtual-piano",
+      "title": "Virtual Piano",
+      "description": "Show a playable 88-key virtual piano with synthesized note audio inside a webview.",
+      "category": "general",
+      "license": "AGPL-3.0",
+      "size_kb": 1,
+      "compatibility": "any",
+      "source_url": null,
+      "is_bundled": true,
+      "origin": "bundled",
+      "tags": [
+        "bundled",
+        "ume"
+      ]
+    },
+    {
+      "name": "weather",
+      "title": "Weather",
+      "description": "查询天气。用户问「今天天气」「上海会下雨吗」「北京明天气温」等时使用；调用 ume_location / ume_weather_search / ume_weather_get。",
+      "category": "info",
+      "license": "AGPL-3.0",
+      "size_kb": 1,
+      "compatibility": "any",
+      "source_url": null,
+      "is_bundled": true,
+      "origin": "bundled",
+      "tags": [
+        "bundled",
+        "ume"
+      ]
+    },
+    {
+      "name": "websearch",
+      "title": "Websearch",
+      "description": "在浏览器中搜索。用户说「搜一下…」「搜索…」时使用 ume_websearch。",
+      "category": "general",
+      "license": "AGPL-3.0",
+      "size_kb": 1,
+      "compatibility": "any",
+      "source_url": null,
+      "is_bundled": true,
+      "origin": "bundled",
+      "tags": [
+        "bundled",
+        "ume"
+      ]
+    },
+    {
+      "name": "whatsapp",
+      "title": "Whatsapp",
+      "description": "用 WhatsApp 发消息（打开聊天并预填文案；默认用户点发送，可选无障碍自动发送）。用户说「用 WhatsApp 告诉…」时使用 ume_whatsapp_send。",
+      "category": "comms",
+      "license": "AGPL-3.0",
+      "size_kb": 1,
+      "compatibility": "any",
+      "source_url": null,
+      "is_bundled": true,
+      "origin": "bundled",
+      "tags": [
+        "bundled",
+        "ume"
+      ]
+    },
+    {
+      "name": "wishlist-health",
+      "title": "健康（规划中）",
+      "description": "步数/睡眠等 — 计划对接 Health Connect。见 1.md / MobileClaw。暂不可一键安装。",
+      "category": "health",
+      "license": "",
+      "size_kb": 2,
+      "compatibility": "android",
+      "source_url": null,
+      "is_bundled": false,
+      "origin": "wishlist",
+      "tags": [
+        "1.md",
+        "MobileClaw",
+        "wishlist"
+      ],
+      "installable": false,
+      "wishlist": true
+    },
+    {
+      "name": "wishlist-smart-home",
+      "title": "智能家居（规划中）",
+      "description": "米家/Home 等 — 靠 a11y 或 HTTP。见 1.md / MobileClaw。暂不可一键安装。",
+      "category": "iot",
+      "license": "",
+      "size_kb": 2,
+      "compatibility": "android",
+      "source_url": null,
+      "is_bundled": false,
+      "origin": "wishlist",
+      "tags": [
+        "1.md",
+        "wishlist"
+      ],
+      "installable": false,
+      "wishlist": true
+    },
+    {
+      "name": "x-twitter",
+      "title": "X Twitter",
+      "description": "在 X（Twitter）中搜索。用户说「在推特/X 搜…」时使用 ume_twitter_search。",
+      "category": "general",
+      "license": "AGPL-3.0",
+      "size_kb": 1,
+      "compatibility": "any",
+      "source_url": null,
+      "is_bundled": true,
+      "origin": "bundled",
+      "tags": [
+        "bundled",
+        "ume"
+      ]
+    }
+  ]
+}

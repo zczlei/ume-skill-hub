@@ -1,0 +1,115 @@
+{
+  "notes": "1.md + ClawHub 精选；手机助理向。source 为可被 SkillUrlImporter 直接拉的 raw markdown。",
+  "skills": [
+    {
+      "name": "ume-translate",
+      "title": "翻译",
+      "description": "翻译剪贴板、选中文字或用户粘贴的段落；可指定目标语言。纯编排 skill，适配微米 AI。",
+      "category": "productivity",
+      "license": "AGPL-3.0",
+      "compatibility": "any",
+      "origin": "hosted",
+      "tags": ["translation", "1.md", "mobile"]
+    },
+    {
+      "name": "ume-summarize",
+      "title": "通用摘要",
+      "description": "统一摘要网页、文件要点、聊天记录或长文；说明来源与截断。对应 1.md 的 summarize。",
+      "category": "productivity",
+      "license": "AGPL-3.0",
+      "compatibility": "any",
+      "origin": "hosted",
+      "tags": ["summarize", "1.md"]
+    },
+    {
+      "name": "ume-expense",
+      "title": "记账报销",
+      "description": "对接小票/发票识别（ume_receipt），整理金额、类目与报销条目。对应 1.md finance/expense。",
+      "category": "finance",
+      "license": "AGPL-3.0",
+      "compatibility": "any",
+      "origin": "hosted",
+      "tags": ["expense", "receipt", "1.md"]
+    },
+    {
+      "name": "clawhub-humanizer",
+      "title": "Humanizer（去 AI 腔）",
+      "description": "按 Wikipedia「AI 写作迹象」清单润色文本，去掉套话与过度排比。来自 ClawHub。",
+      "category": "writing",
+      "license": "MIT",
+      "compatibility": "any",
+      "origin": "clawhub",
+      "owner": "biostartechnology",
+      "slug": "humanizer",
+      "tags": ["clawhub", "writing"]
+    },
+    {
+      "name": "clawhub-obsidian",
+      "title": "Obsidian 笔记",
+      "description": "操作 Obsidian vault / Markdown 笔记（需设备侧能力或转换后使用）。来自 ClawHub。",
+      "category": "notes",
+      "license": "MIT",
+      "compatibility": "openclaw",
+      "origin": "clawhub",
+      "owner": "steipete",
+      "slug": "obsidian",
+      "tags": ["clawhub", "1.md", "notes"]
+    },
+    {
+      "name": "clawhub-notion",
+      "title": "Notion",
+      "description": "Notion API：页面/数据库/块。需 API Key。来自 ClawHub。",
+      "category": "notes",
+      "license": "MIT",
+      "compatibility": "openclaw",
+      "owner": "steipete",
+      "slug": "notion",
+      "origin": "clawhub",
+      "tags": ["clawhub", "1.md"]
+    },
+    {
+      "name": "clawhub-skill-creator",
+      "title": "Skill Creator",
+      "description": "指导用户口头/对话生成有效 Skill（结构、边界、渐进披露）。来自 ClawHub。",
+      "category": "meta",
+      "license": "MIT",
+      "compatibility": "any",
+      "origin": "clawhub",
+      "owner": "chindden",
+      "slug": "skill-creator",
+      "tags": ["clawhub", "1.md", "meta"]
+    },
+    {
+      "name": "clawhub-skill-vetter",
+      "title": "Skill Vetter（安全体检）",
+      "description": "安装外来 Skill 前做红旗检查：权限范围、可疑模式。来自 ClawHub。",
+      "category": "security",
+      "license": "MIT",
+      "compatibility": "any",
+      "origin": "clawhub",
+      "owner": "spclaudehome",
+      "slug": "skill-vetter",
+      "tags": ["clawhub", "security"]
+    },
+    {
+      "name": "wishlist-health",
+      "title": "健康（规划中）",
+      "description": "步数/睡眠等 — 计划对接 Health Connect。见 1.md / MobileClaw。暂不可一键安装。",
+      "category": "health",
+      "license": "",
+      "compatibility": "android",
+      "origin": "wishlist",
+      "tags": ["1.md", "MobileClaw", "wishlist"]
+    },
+    {
+      "name": "wishlist-smart-home",
+      "title": "智能家居（规划中）",
+      "description": "米家/Home 等 — 靠 a11y 或 HTTP。见 1.md / MobileClaw。暂不可一键安装。",
+      "category": "iot",
+      "license": "",
+      "compatibility": "android",
+      "origin": "wishlist",
+      "tags": ["1.md", "wishlist"]
+    }
+  ]
+}

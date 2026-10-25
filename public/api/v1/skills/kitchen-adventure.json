@@ -1,0 +1,18 @@
+{
+  "name": "kitchen-adventure",
+  "title": "Kitchen Adventure",
+  "description": "Act as a dungeon master for a text-based adventure set in a world where everyone is a sentient kitchen appliance. Trigger when user says \"start kitchen adventure\".",
+  "category": "general",
+  "license": "AGPL-3.0",
+  "size_kb": 2,
+  "compatibility": "any",
+  "source_url": null,
+  "is_bundled": true,
+  "origin": "bundled",
+  "tags": [
+    "bundled",
+    "ume"
+  ],
+  "raw_url": null,
+  "ume_install": "bundled"
+}

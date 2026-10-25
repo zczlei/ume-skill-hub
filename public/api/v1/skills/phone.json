@@ -1,0 +1,18 @@
+{
+  "name": "phone",
+  "title": "Phone",
+  "description": "拨打电话：打开拨号盘预填号码或按联系人姓名拨号（不自动呼出）。用户说「打给10086」「打电话给妈妈」时必须用本 Skill 的工具，禁止用浏览器。",
+  "category": "device",
+  "license": "AGPL-3.0",
+  "size_kb": 1,
+  "compatibility": "any",
+  "source_url": null,
+  "is_bundled": true,
+  "origin": "bundled",
+  "tags": [
+    "bundled",
+    "ume"
+  ],
+  "raw_url": null,
+  "ume_install": "bundled"
+}

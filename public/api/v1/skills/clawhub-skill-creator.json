@@ -1,0 +1,21 @@
+{
+  "name": "clawhub-skill-creator",
+  "title": "Skill Creator",
+  "description": "指导用户口头/对话生成有效 Skill（结构、边界、渐进披露）。来自 ClawHub。",
+  "category": "meta",
+  "license": "MIT",
+  "size_kb": 2,
+  "compatibility": "any",
+  "source_url": "https://clawhub.ai/api/v1/skills/skill-creator/file?path=SKILL.md&owner=chindden",
+  "is_bundled": false,
+  "origin": "clawhub",
+  "tags": [
+    "clawhub",
+    "1.md",
+    "meta"
+  ],
+  "installable": true,
+  "wishlist": false,
+  "raw_url": "https://clawhub.ai/api/v1/skills/skill-creator/file?path=SKILL.md&owner=chindden",
+  "ume_install": "skill_install_from_url"
+}

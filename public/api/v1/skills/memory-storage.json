@@ -1,0 +1,18 @@
+{
+  "name": "memory-storage",
+  "title": "Memory Storage",
+  "description": "记住/查询物品存放位置。用户说「护照放在书桌抽屉」「护照在哪」时使用 ume_memory_storage_* 工具。",
+  "category": "memory",
+  "license": "AGPL-3.0",
+  "size_kb": 1,
+  "compatibility": "any",
+  "source_url": null,
+  "is_bundled": true,
+  "origin": "bundled",
+  "tags": [
+    "bundled",
+    "ume"
+  ],
+  "raw_url": null,
+  "ume_install": "bundled"
+}

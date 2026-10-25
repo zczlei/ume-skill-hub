@@ -1,0 +1,18 @@
+{
+  "name": "virtual-piano",
+  "title": "Virtual Piano",
+  "description": "Show a playable 88-key virtual piano with synthesized note audio inside a webview.",
+  "category": "general",
+  "license": "AGPL-3.0",
+  "size_kb": 1,
+  "compatibility": "any",
+  "source_url": null,
+  "is_bundled": true,
+  "origin": "bundled",
+  "tags": [
+    "bundled",
+    "ume"
+  ],
+  "raw_url": null,
+  "ume_install": "bundled"
+}

@@ -1,0 +1,18 @@
+{
+  "name": "alarm",
+  "title": "Alarm",
+  "description": "设置闹钟或倒计时。用户说「明天七点叫我」「每周一早上8点」「倒计时五分钟」时用 ume_alarm_set / ume_timer_set，不要用 schedule_job。",
+  "category": "time",
+  "license": "AGPL-3.0",
+  "size_kb": 1,
+  "compatibility": "any",
+  "source_url": null,
+  "is_bundled": true,
+  "origin": "bundled",
+  "tags": [
+    "bundled",
+    "ume"
+  ],
+  "raw_url": null,
+  "ume_install": "bundled"
+}

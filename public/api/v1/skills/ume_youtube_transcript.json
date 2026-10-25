@@ -1,0 +1,18 @@
+{
+  "name": "ume_youtube_transcript",
+  "title": "Ume Youtube Transcript",
+  "description": "读取 YouTube 视频字幕/文案。用户说「这个视频在说什么」「总结这个 YouTube」时使用 ume_youtube_transcript。",
+  "category": "media",
+  "license": "AGPL-3.0",
+  "size_kb": 1,
+  "compatibility": "any",
+  "source_url": null,
+  "is_bundled": true,
+  "origin": "bundled",
+  "tags": [
+    "bundled",
+    "ume"
+  ],
+  "raw_url": null,
+  "ume_install": "bundled"
+}

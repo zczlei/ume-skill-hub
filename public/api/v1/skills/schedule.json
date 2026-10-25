@@ -1,0 +1,18 @@
+{
+  "name": "schedule",
+  "title": "Schedule",
+  "description": "日历日程：创建、查日程、查忙闲。用户说「明天下午开会」「我周五有空吗」「明天有什么安排」时使用对应工具。",
+  "category": "time",
+  "license": "AGPL-3.0",
+  "size_kb": 1,
+  "compatibility": "any",
+  "source_url": null,
+  "is_bundled": true,
+  "origin": "bundled",
+  "tags": [
+    "bundled",
+    "ume"
+  ],
+  "raw_url": null,
+  "ume_install": "bundled"
+}

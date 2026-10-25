@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>UME Skill Hub · 微米 AI 技能集合</title>
+  <meta name="description" content="浏览、搜索并安装微米 AI Skills。提供 catalog API，App 可直接拉取。" />
+  <meta name="theme-color" content="#0e1a17" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,550;9..144,650&family=IBM+Plex+Mono:wght@400;500&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/site.css" />
+</head>
+<body>
+  <div class="wrap">
+    <header class="top">
+      <div class="brand">
+        <strong>UME Skill Hub</strong>
+        <span>微米 AI · 技能集合与安装接口</span>
+      </div>
+      <nav class="nav">
+        <a href="#catalog">目录</a>
+        <a href="#api">API</a>
+        <a href="api/v1/catalog.json">catalog.json</a>
+        <a href="https://github.com/zczlei/ume-ai" target="_blank" rel="noreferrer">GitHub</a>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <h1>给手机助理的技能货架</h1>
+      <p>
+        汇集 App 内置 Skill、可一键安装的编排 Skill，以及从
+        <a href="https://clawhub.ai" target="_blank" rel="noreferrer">ClawHub</a>
+        / OpenClaw 生态精选的条目。网页可浏览；微米 AI 通过同一套 JSON 接口拉取并安装。
+      </p>
+      <div class="cta-row">
+        <a class="btn" href="#catalog">浏览技能</a>
+        <a class="btn secondary" href="#api">查看接口</a>
+      </div>
+    </section>
+
+    <section id="catalog" class="panel">
+      <div class="toolbar">
+        <input id="q" type="search" placeholder="搜索名称、描述、标签…" autocomplete="off" />
+        <div class="filters">
+          <select id="origin">
+            <option value="">全部来源</option>
+            <option value="bundled">内置</option>
+            <option value="hosted">本站托管</option>
+            <option value="clawhub">ClawHub</option>
+            <option value="wishlist">规划中</option>
+          </select>
+          <select id="category">
+            <option value="">全部分类</option>
+          </select>
+        </div>
+      </div>
+      <p class="meta-bar">
+        <span id="count">加载中…</span>
+        <span>UME catalog：<code id="catalog-url">api/v1/catalog.json</code></span>
+      </p>
+      <div id="grid" class="grid" aria-live="polite"></div>
+      <div id="empty" class="empty" hidden>没有匹配的技能</div>
+    </section>
+
+    <section id="api" class="api">
+      <h2>给微米 AI / 第三方的接口</h2>
+      <div class="panel">
+        <pre id="api-help">加载中…</pre>
+      </div>
+    </section>
+
+    <footer class="footer">
+      格式对齐 UME <code>SkillCatalog</code>；安装走 raw <code>SKILL.md</code>（非 HTML 页面）。
+      参考 <a href="https://agentskills.io" target="_blank" rel="noreferrer">agentskills.io</a>
+      与 ClawHub 公开 API。内容含 1.md 移植清单中的优先项。
+    </footer>
+  </div>
+
+  <div id="toast" class="toast" role="status"></div>
+  <script src="assets/site.js" type="module"></script>
+</body>
+</html>

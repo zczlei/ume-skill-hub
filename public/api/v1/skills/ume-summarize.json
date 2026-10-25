@@ -1,0 +1,22 @@
+{
+  "name": "ume-summarize",
+  "title": "通用摘要",
+  "description": "统一摘要网页、文件要点、聊天记录或长文；说明来源与截断。对应 1.md 的 summarize。",
+  "category": "productivity",
+  "license": "AGPL-3.0",
+  "size_kb": 2,
+  "compatibility": "any",
+  "source_url": "https://ume-skill-hub.pages.dev/skills/ume-summarize/SKILL.md",
+  "is_bundled": false,
+  "origin": "hosted",
+  "tags": [
+    "hosted",
+    "ume",
+    "summarize",
+    "1.md"
+  ],
+  "installable": true,
+  "wishlist": false,
+  "raw_url": "https://ume-skill-hub.pages.dev/skills/ume-summarize/SKILL.md",
+  "ume_install": "skill_install_from_url"
+}

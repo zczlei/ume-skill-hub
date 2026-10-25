@@ -1,0 +1,18 @@
+{
+  "name": "device-control",
+  "title": "Device Control",
+  "description": "设备控制：电量、亮度、音量、深浅色、应用商店搜索、网络面板、应用信息。用户说「亮一点」「声音小一点」「还剩多少电」「换成浅色模式」时使用。",
+  "category": "device",
+  "license": "AGPL-3.0",
+  "size_kb": 1,
+  "compatibility": "any",
+  "source_url": null,
+  "is_bundled": true,
+  "origin": "bundled",
+  "tags": [
+    "bundled",
+    "ume"
+  ],
+  "raw_url": null,
+  "ume_install": "bundled"
+}

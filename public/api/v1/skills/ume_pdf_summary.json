@@ -1,0 +1,18 @@
+{
+  "name": "ume_pdf_summary",
+  "title": "Ume Pdf Summary",
+  "description": "读取本地 PDF/DOCX/PPTX/XLSX/EPUB/文本并抽取正文。用户说「总结这个 PDF」「这个文档说什么」「帮我看一下这个表格/报告」时使用 ume_pdf_summary。要生成 Word/Excel/PPT 请用 ume_office skill。",
+  "category": "docs",
+  "license": "AGPL-3.0",
+  "size_kb": 1,
+  "compatibility": "any",
+  "source_url": null,
+  "is_bundled": true,
+  "origin": "bundled",
+  "tags": [
+    "bundled",
+    "ume"
+  ],
+  "raw_url": null,
+  "ume_install": "bundled"
+}

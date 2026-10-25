@@ -1,0 +1,18 @@
+{
+  "name": "gmail",
+  "title": "Gmail",
+  "description": "打开邮件编辑器预填收件人与正文（不自动发送）。用户说「发邮件给…」时使用 ume_gmail_compose。",
+  "category": "comms",
+  "license": "AGPL-3.0",
+  "size_kb": 1,
+  "compatibility": "any",
+  "source_url": null,
+  "is_bundled": true,
+  "origin": "bundled",
+  "tags": [
+    "bundled",
+    "ume"
+  ],
+  "raw_url": null,
+  "ume_install": "bundled"
+}

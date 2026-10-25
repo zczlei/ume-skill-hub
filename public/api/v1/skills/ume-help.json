@@ -1,0 +1,18 @@
+{
+  "name": "ume-help",
+  "title": "Ume Help",
+  "description": "介绍微米AI（UME AI）能做什么、如何配置模型与 Skill。用户问「你能做什么」「帮助」「Skill 怎么用」「如何接入模型」时使用。",
+  "category": "general",
+  "license": "AGPL-3.0",
+  "size_kb": 2,
+  "compatibility": "any",
+  "source_url": null,
+  "is_bundled": true,
+  "origin": "bundled",
+  "tags": [
+    "bundled",
+    "ume"
+  ],
+  "raw_url": null,
+  "ume_install": "bundled"
+}

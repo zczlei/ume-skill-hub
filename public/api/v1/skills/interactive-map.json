@@ -1,0 +1,18 @@
+{
+  "name": "interactive-map",
+  "title": "Interactive Map",
+  "description": "Show an interactive Google Maps embed for a location. Returns a webview URL the chat surface can render.",
+  "category": "maps",
+  "license": "AGPL-3.0",
+  "size_kb": 1,
+  "compatibility": "any",
+  "source_url": null,
+  "is_bundled": true,
+  "origin": "bundled",
+  "tags": [
+    "bundled",
+    "ume"
+  ],
+  "raw_url": null,
+  "ume_install": "bundled"
+}

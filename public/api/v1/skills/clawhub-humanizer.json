@@ -1,0 +1,20 @@
+{
+  "name": "clawhub-humanizer",
+  "title": "Humanizer（去 AI 腔）",
+  "description": "按 Wikipedia「AI 写作迹象」清单润色文本，去掉套话与过度排比。来自 ClawHub。",
+  "category": "writing",
+  "license": "MIT",
+  "size_kb": 2,
+  "compatibility": "any",
+  "source_url": "https://clawhub.ai/api/v1/skills/humanizer/file?path=SKILL.md&owner=biostartechnology",
+  "is_bundled": false,
+  "origin": "clawhub",
+  "tags": [
+    "clawhub",
+    "writing"
+  ],
+  "installable": true,
+  "wishlist": false,
+  "raw_url": "https://clawhub.ai/api/v1/skills/humanizer/file?path=SKILL.md&owner=biostartechnology",
+  "ume_install": "skill_install_from_url"
+}

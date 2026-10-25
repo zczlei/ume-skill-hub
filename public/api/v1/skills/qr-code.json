@@ -1,0 +1,18 @@
+{
+  "name": "qr-code",
+  "title": "Qr Code",
+  "description": "Generate a 512x512 QR code PNG for a given URL. Returns a base64-encoded image. Works fully offline.",
+  "category": "general",
+  "license": "AGPL-3.0",
+  "size_kb": 1,
+  "compatibility": "any",
+  "source_url": null,
+  "is_bundled": true,
+  "origin": "bundled",
+  "tags": [
+    "bundled",
+    "ume"
+  ],
+  "raw_url": null,
+  "ume_install": "bundled"
+}

@@ -1,0 +1,18 @@
+{
+  "name": "ume_receipt",
+  "title": "Ume Receipt",
+  "description": "整理发票/小票。用户说「帮我记一下这张票」「这张发票多少钱」「报销整理」时使用 ume_receipt。",
+  "category": "docs",
+  "license": "AGPL-3.0",
+  "size_kb": 1,
+  "compatibility": "any",
+  "source_url": null,
+  "is_bundled": true,
+  "origin": "bundled",
+  "tags": [
+    "bundled",
+    "ume"
+  ],
+  "raw_url": null,
+  "ume_install": "bundled"
+}

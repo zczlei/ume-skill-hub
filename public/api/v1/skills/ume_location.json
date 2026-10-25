@@ -1,0 +1,18 @@
+{
+  "name": "ume_location",
+  "title": "Ume Location",
+  "description": "获取用户当前位置与城市名。用户问「我在哪」「附近」「今天天气」且未提城市时，先用 ume_location。",
+  "category": "info",
+  "license": "AGPL-3.0",
+  "size_kb": 1,
+  "compatibility": "any",
+  "source_url": null,
+  "is_bundled": true,
+  "origin": "bundled",
+  "tags": [
+    "bundled",
+    "ume"
+  ],
+  "raw_url": null,
+  "ume_install": "bundled"
+}

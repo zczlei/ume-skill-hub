@@ -1,0 +1,18 @@
+{
+  "name": "ume_office",
+  "title": "Ume Office",
+  "description": "读写 Word/Excel/PPT（docx/xlsx/pptx）。用户说「总结这份 Word」「导出成 Excel」「做个 PPT」「生成表格」时使用本 skill。",
+  "category": "docs",
+  "license": "AGPL-3.0",
+  "size_kb": 1,
+  "compatibility": "any",
+  "source_url": null,
+  "is_bundled": true,
+  "origin": "bundled",
+  "tags": [
+    "bundled",
+    "ume"
+  ],
+  "raw_url": null,
+  "ume_install": "bundled"
+}

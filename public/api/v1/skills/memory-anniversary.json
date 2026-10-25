@@ -1,0 +1,18 @@
+{
+  "name": "memory-anniversary",
+  "title": "Memory Anniversary",
+  "description": "记住/查询生日与纪念日。用户说「妈妈生日是5月20」「最近有什么纪念日」时使用 ume_memory_anniversary_* 工具。",
+  "category": "memory",
+  "license": "AGPL-3.0",
+  "size_kb": 1,
+  "compatibility": "any",
+  "source_url": null,
+  "is_bundled": true,
+  "origin": "bundled",
+  "tags": [
+    "bundled",
+    "ume"
+  ],
+  "raw_url": null,
+  "ume_install": "bundled"
+}

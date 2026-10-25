@@ -1,0 +1,20 @@
+{
+  "name": "clawhub-skill-vetter",
+  "title": "Skill Vetter（安全体检）",
+  "description": "安装外来 Skill 前做红旗检查：权限范围、可疑模式。来自 ClawHub。",
+  "category": "security",
+  "license": "MIT",
+  "size_kb": 2,
+  "compatibility": "any",
+  "source_url": "https://clawhub.ai/api/v1/skills/skill-vetter/file?path=SKILL.md&owner=spclaudehome",
+  "is_bundled": false,
+  "origin": "clawhub",
+  "tags": [
+    "clawhub",
+    "security"
+  ],
+  "installable": true,
+  "wishlist": false,
+  "raw_url": "https://clawhub.ai/api/v1/skills/skill-vetter/file?path=SKILL.md&owner=spclaudehome",
+  "ume_install": "skill_install_from_url"
+}

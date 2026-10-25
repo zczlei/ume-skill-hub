@@ -1,0 +1,23 @@
+{
+  "name": "ume-expense",
+  "title": "记账报销",
+  "description": "对接小票/发票识别（ume_receipt），整理金额、类目与报销条目。对应 1.md finance/expense。",
+  "category": "finance",
+  "license": "AGPL-3.0",
+  "size_kb": 2,
+  "compatibility": "any",
+  "source_url": "https://ume-skill-hub.pages.dev/skills/ume-expense/SKILL.md",
+  "is_bundled": false,
+  "origin": "hosted",
+  "tags": [
+    "hosted",
+    "ume",
+    "expense",
+    "receipt",
+    "1.md"
+  ],
+  "installable": true,
+  "wishlist": false,
+  "raw_url": "https://ume-skill-hub.pages.dev/skills/ume-expense/SKILL.md",
+  "ume_install": "skill_install_from_url"
+}

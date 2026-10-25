@@ -1,0 +1,21 @@
+{
+  "name": "clawhub-obsidian",
+  "title": "Obsidian 笔记",
+  "description": "操作 Obsidian vault / Markdown 笔记（需设备侧能力或转换后使用）。来自 ClawHub。",
+  "category": "notes",
+  "license": "MIT",
+  "size_kb": 2,
+  "compatibility": "openclaw",
+  "source_url": "https://clawhub.ai/api/v1/skills/obsidian/file?path=SKILL.md&owner=steipete",
+  "is_bundled": false,
+  "origin": "clawhub",
+  "tags": [
+    "clawhub",
+    "1.md",
+    "notes"
+  ],
+  "installable": true,
+  "wishlist": false,
+  "raw_url": "https://clawhub.ai/api/v1/skills/obsidian/file?path=SKILL.md&owner=steipete",
+  "ume_install": "skill_install_from_url"
+}

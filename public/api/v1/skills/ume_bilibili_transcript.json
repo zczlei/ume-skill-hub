@@ -1,0 +1,18 @@
+{
+  "name": "ume_bilibili_transcript",
+  "title": "Ume Bilibili Transcript",
+  "description": "读取 B 站视频字幕/文案。用户说「这个 B 站在说什么」「总结这个哔哩哔哩」时使用 ume_bilibili_transcript。",
+  "category": "media",
+  "license": "AGPL-3.0",
+  "size_kb": 1,
+  "compatibility": "any",
+  "source_url": null,
+  "is_bundled": true,
+  "origin": "bundled",
+  "tags": [
+    "bundled",
+    "ume"
+  ],
+  "raw_url": null,
+  "ume_install": "bundled"
+}

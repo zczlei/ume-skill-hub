@@ -1,0 +1,11 @@
+{
+  "name": "ume-skill-hub",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "PUBLIC_BASE=${PUBLIC_BASE:-https://ume-skill-hub.pages.dev} node scripts/build-catalog.mjs",
+    "build:pages": "PUBLIC_BASE=https://ume-skill-hub.pages.dev node scripts/build-catalog.mjs",
+    "deploy": "npm run build:pages && npx wrangler@4 pages deploy public --project-name=ume-skill-hub --branch=main",
+    "serve": "npm run build && python3 -m http.server 8787 --directory public"
+  }
+}

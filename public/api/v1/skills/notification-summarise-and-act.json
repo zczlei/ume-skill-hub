@@ -1,0 +1,18 @@
+{
+  "name": "notification-summarise-and-act",
+  "title": "Notification Summarise And Act",
+  "description": "Read the recent / active notification stream, group by app, summarise what's actually happening, and propose specific next actions. Used when the user asks \"what's going on\" or returns to their phone after a few hours.",
+  "category": "device",
+  "license": "AGPL-3.0",
+  "size_kb": 4,
+  "compatibility": "any",
+  "source_url": null,
+  "is_bundled": true,
+  "origin": "bundled",
+  "tags": [
+    "bundled",
+    "ume"
+  ],
+  "raw_url": null,
+  "ume_install": "bundled"
+}

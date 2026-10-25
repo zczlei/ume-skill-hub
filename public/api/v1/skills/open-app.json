@@ -1,0 +1,18 @@
+{
+  "name": "open-app",
+  "title": "Open App",
+  "description": "打开手机上已安装的 App。用户说「打开日历」「打开微信」「打开设置」时必须用 ume_open_app，禁止浏览器。",
+  "category": "general",
+  "license": "AGPL-3.0",
+  "size_kb": 1,
+  "compatibility": "any",
+  "source_url": null,
+  "is_bundled": true,
+  "origin": "bundled",
+  "tags": [
+    "bundled",
+    "ume"
+  ],
+  "raw_url": null,
+  "ume_install": "bundled"
+}

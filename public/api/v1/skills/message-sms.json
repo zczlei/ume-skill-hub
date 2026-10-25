@@ -1,0 +1,18 @@
+{
+  "name": "message-sms",
+  "title": "Message Sms",
+  "description": "发短信：打开短信编辑器预填收件人与正文（不自动发送）。用户说「发短信给…」「给10086发消息」时必须用本 Skill 的工具，禁止用浏览器。",
+  "category": "comms",
+  "license": "AGPL-3.0",
+  "size_kb": 1,
+  "compatibility": "any",
+  "source_url": null,
+  "is_bundled": true,
+  "origin": "bundled",
+  "tags": [
+    "bundled",
+    "ume"
+  ],
+  "raw_url": null,
+  "ume_install": "bundled"
+}

@@ -1,0 +1,18 @@
+{
+  "name": "morning-briefing",
+  "title": "Morning Briefing",
+  "description": "Compose the user's morning summary — current weather, today's calendar, unread email count, scheduled jobs ahead, and any battery/storage warnings. Output one short paragraph so the user can read it in 10 seconds.",
+  "category": "info",
+  "license": "AGPL-3.0",
+  "size_kb": 3,
+  "compatibility": "any",
+  "source_url": null,
+  "is_bundled": true,
+  "origin": "bundled",
+  "tags": [
+    "bundled",
+    "ume"
+  ],
+  "raw_url": null,
+  "ume_install": "bundled"
+}
