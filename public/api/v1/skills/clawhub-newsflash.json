@@ -1,0 +1,20 @@
+{
+  "name": "clawhub-newsflash",
+  "title": "Newsflash 资讯快报",
+  "description": "个性化新闻简报与突发提醒。ClawHub @zatmonkey/newsflash。",
+  "category": "info",
+  "license": "MIT",
+  "size_kb": 2,
+  "compatibility": "openclaw",
+  "source_url": "https://clawhub.ai/api/v1/skills/newsflash/file?path=SKILL.md&owner=zatmonkey",
+  "is_bundled": false,
+  "origin": "clawhub",
+  "tags": [
+    "clawhub",
+    "news"
+  ],
+  "installable": true,
+  "wishlist": false,
+  "raw_url": "https://clawhub.ai/api/v1/skills/newsflash/file?path=SKILL.md&owner=zatmonkey",
+  "ume_install": "skill_install_from_url"
+}

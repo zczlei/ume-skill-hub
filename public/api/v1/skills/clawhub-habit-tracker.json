@@ -1,0 +1,20 @@
+{
+  "name": "clawhub-habit-tracker",
+  "title": "Habit Tracker",
+  "description": "习惯、连续天数与进度。ClawHub @jhillin8/habit-tracker。",
+  "category": "health",
+  "license": "MIT",
+  "size_kb": 2,
+  "compatibility": "openclaw",
+  "source_url": "https://clawhub.ai/api/v1/skills/habit-tracker/file?path=SKILL.md&owner=jhillin8",
+  "is_bundled": false,
+  "origin": "clawhub",
+  "tags": [
+    "clawhub",
+    "habit"
+  ],
+  "installable": true,
+  "wishlist": false,
+  "raw_url": "https://clawhub.ai/api/v1/skills/habit-tracker/file?path=SKILL.md&owner=jhillin8",
+  "ume_install": "skill_install_from_url"
+}

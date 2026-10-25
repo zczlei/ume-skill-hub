@@ -1,0 +1,24 @@
+{
+  "name": "ume-inbox-digest",
+  "title": "收件箱/通知分流",
+  "description": "通知与消息分流：紧急、待回复、可忽略，并给回复草稿。参考 ClawHub inbox-triage。",
+  "category": "comms",
+  "license": "AGPL-3.0",
+  "size_kb": 2,
+  "compatibility": "android",
+  "source_url": "https://umeskillhub.com/skills/ume-inbox-digest/SKILL.md",
+  "is_bundled": false,
+  "origin": "hosted",
+  "tags": [
+    "hosted",
+    "ume",
+    "inbox",
+    "notification",
+    "mobile",
+    "clawhub-inspired"
+  ],
+  "installable": true,
+  "wishlist": false,
+  "raw_url": "https://umeskillhub.com/skills/ume-inbox-digest/SKILL.md",
+  "ume_install": "skill_install_from_url"
+}

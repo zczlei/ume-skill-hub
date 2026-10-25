@@ -1,0 +1,20 @@
+{
+  "name": "clawhub-todo",
+  "title": "Todo（执行引擎）",
+  "description": "自然语言待办与下一步行动。ClawHub @agenticio/todo。",
+  "category": "productivity",
+  "license": "MIT",
+  "size_kb": 2,
+  "compatibility": "openclaw",
+  "source_url": "https://clawhub.ai/api/v1/skills/todo/file?path=SKILL.md&owner=agenticio",
+  "is_bundled": false,
+  "origin": "clawhub",
+  "tags": [
+    "clawhub",
+    "todo"
+  ],
+  "installable": true,
+  "wishlist": false,
+  "raw_url": "https://clawhub.ai/api/v1/skills/todo/file?path=SKILL.md&owner=agenticio",
+  "ume_install": "skill_install_from_url"
+}

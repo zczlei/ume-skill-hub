@@ -1,0 +1,21 @@
+{
+  "name": "clawhub-meeting-notes",
+  "title": "Meeting Notes（ClawHub）",
+  "description": "中文会议纪要整理模板。ClawHub @xiaoffff-f/meeting-notes。",
+  "category": "productivity",
+  "license": "MIT",
+  "size_kb": 2,
+  "compatibility": "any",
+  "source_url": "https://clawhub.ai/api/v1/skills/meeting-notes/file?path=SKILL.md&owner=xiaoffff-f",
+  "is_bundled": false,
+  "origin": "clawhub",
+  "tags": [
+    "clawhub",
+    "meeting",
+    "zh"
+  ],
+  "installable": true,
+  "wishlist": false,
+  "raw_url": "https://clawhub.ai/api/v1/skills/meeting-notes/file?path=SKILL.md&owner=xiaoffff-f",
+  "ume_install": "skill_install_from_url"
+}

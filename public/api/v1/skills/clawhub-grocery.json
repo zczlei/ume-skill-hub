@@ -1,0 +1,21 @@
+{
+  "name": "clawhub-grocery",
+  "title": "Grocery 买菜清单",
+  "description": "购物清单、库存与饮食限制提醒。ClawHub @ivangdavila/grocery。",
+  "category": "shopping",
+  "license": "MIT",
+  "size_kb": 2,
+  "compatibility": "openclaw",
+  "source_url": "https://clawhub.ai/api/v1/skills/grocery/file?path=SKILL.md&owner=ivangdavila",
+  "is_bundled": false,
+  "origin": "clawhub",
+  "tags": [
+    "clawhub",
+    "grocery",
+    "shopping"
+  ],
+  "installable": true,
+  "wishlist": false,
+  "raw_url": "https://clawhub.ai/api/v1/skills/grocery/file?path=SKILL.md&owner=ivangdavila",
+  "ume_install": "skill_install_from_url"
+}

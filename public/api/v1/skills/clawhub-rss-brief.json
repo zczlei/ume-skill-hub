@@ -1,0 +1,22 @@
+{
+  "name": "clawhub-rss-brief",
+  "title": "RSS 24h 中文简报",
+  "description": "从 OPML/RSS 拉取近 N 小时文章并分类中文简报（Karpathy 订阅源思路）。ClawHub @seandong/ak-rss-24h-brief。",
+  "category": "info",
+  "license": "MIT",
+  "size_kb": 2,
+  "compatibility": "openclaw",
+  "source_url": "https://clawhub.ai/api/v1/skills/ak-rss-24h-brief/file?path=SKILL.md&owner=seandong",
+  "is_bundled": false,
+  "origin": "clawhub",
+  "tags": [
+    "clawhub",
+    "rss",
+    "briefing",
+    "mobile-friendly"
+  ],
+  "installable": true,
+  "wishlist": false,
+  "raw_url": "https://clawhub.ai/api/v1/skills/ak-rss-24h-brief/file?path=SKILL.md&owner=seandong",
+  "ume_install": "skill_install_from_url"
+}

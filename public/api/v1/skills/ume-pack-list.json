@@ -1,0 +1,24 @@
+{
+  "name": "ume-pack-list",
+  "title": "出行打包清单",
+  "description": "按目的地/季节/出行类型生成行李与证件清单。参考 ClawHub pack-list。",
+  "category": "productivity",
+  "license": "AGPL-3.0",
+  "size_kb": 2,
+  "compatibility": "any",
+  "source_url": "https://umeskillhub.com/skills/ume-pack-list/SKILL.md",
+  "is_bundled": false,
+  "origin": "hosted",
+  "tags": [
+    "hosted",
+    "ume",
+    "travel",
+    "checklist",
+    "mobile",
+    "clawhub-inspired"
+  ],
+  "installable": true,
+  "wishlist": false,
+  "raw_url": "https://umeskillhub.com/skills/ume-pack-list/SKILL.md",
+  "ume_install": "skill_install_from_url"
+}

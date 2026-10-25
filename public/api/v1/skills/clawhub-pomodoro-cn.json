@@ -1,0 +1,21 @@
+{
+  "name": "clawhub-pomodoro-cn",
+  "title": "中文番茄钟",
+  "description": "中文番茄专注计时。ClawHub @freedompixels/cn-pomodoro-timer。",
+  "category": "productivity",
+  "license": "MIT",
+  "size_kb": 2,
+  "compatibility": "openclaw",
+  "source_url": "https://clawhub.ai/api/v1/skills/cn-pomodoro-timer/file?path=SKILL.md&owner=freedompixels",
+  "is_bundled": false,
+  "origin": "clawhub",
+  "tags": [
+    "clawhub",
+    "pomodoro",
+    "zh"
+  ],
+  "installable": true,
+  "wishlist": false,
+  "raw_url": "https://clawhub.ai/api/v1/skills/cn-pomodoro-timer/file?path=SKILL.md&owner=freedompixels",
+  "ume_install": "skill_install_from_url"
+}

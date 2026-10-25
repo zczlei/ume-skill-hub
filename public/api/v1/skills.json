@@ -2,7 +2,7 @@
   "version": 2,
   "updated_at": "2026-10-25",
   "public_base": "https://umeskillhub.com",
-  "count": 57,
+  "count": 77,
   "endpoints": {
     "catalog": "https://umeskillhub.com/api/v1/catalog.json",
     "skills": "https://umeskillhub.com/api/v1/skills.json",
@@ -123,6 +123,79 @@
       ]
     },
     {
+      "name": "clawhub-daily-briefing",
+      "title": "Daily Briefing",
+      "description": "天气/日历/提醒/生日/重要邮件的紧凑日报。ClawHub @antgly/daily-briefing。",
+      "category": "productivity",
+      "license": "MIT",
+      "size_kb": 2,
+      "compatibility": "openclaw",
+      "source_url": "https://clawhub.ai/api/v1/skills/daily-briefing/file?path=SKILL.md&owner=antgly",
+      "is_bundled": false,
+      "origin": "clawhub",
+      "tags": [
+        "clawhub",
+        "briefing"
+      ],
+      "installable": true,
+      "wishlist": false
+    },
+    {
+      "name": "clawhub-focus-timer",
+      "title": "Focus Timer",
+      "description": "Agent 管理的番茄专注块。ClawHub @theshadowrose/focus-timer。",
+      "category": "productivity",
+      "license": "MIT",
+      "size_kb": 2,
+      "compatibility": "openclaw",
+      "source_url": "https://clawhub.ai/api/v1/skills/focus-timer/file?path=SKILL.md&owner=theshadowrose",
+      "is_bundled": false,
+      "origin": "clawhub",
+      "tags": [
+        "clawhub",
+        "pomodoro"
+      ],
+      "installable": true,
+      "wishlist": false
+    },
+    {
+      "name": "clawhub-grocery",
+      "title": "Grocery 买菜清单",
+      "description": "购物清单、库存与饮食限制提醒。ClawHub @ivangdavila/grocery。",
+      "category": "shopping",
+      "license": "MIT",
+      "size_kb": 2,
+      "compatibility": "openclaw",
+      "source_url": "https://clawhub.ai/api/v1/skills/grocery/file?path=SKILL.md&owner=ivangdavila",
+      "is_bundled": false,
+      "origin": "clawhub",
+      "tags": [
+        "clawhub",
+        "grocery",
+        "shopping"
+      ],
+      "installable": true,
+      "wishlist": false
+    },
+    {
+      "name": "clawhub-habit-tracker",
+      "title": "Habit Tracker",
+      "description": "习惯、连续天数与进度。ClawHub @jhillin8/habit-tracker。",
+      "category": "health",
+      "license": "MIT",
+      "size_kb": 2,
+      "compatibility": "openclaw",
+      "source_url": "https://clawhub.ai/api/v1/skills/habit-tracker/file?path=SKILL.md&owner=jhillin8",
+      "is_bundled": false,
+      "origin": "clawhub",
+      "tags": [
+        "clawhub",
+        "habit"
+      ],
+      "installable": true,
+      "wishlist": false
+    },
+    {
       "name": "clawhub-humanizer",
       "title": "Humanizer（去 AI 腔）",
       "description": "按 Wikipedia「AI 写作迹象」清单润色文本，去掉套话与过度排比。来自 ClawHub。",
@@ -136,6 +209,62 @@
       "tags": [
         "clawhub",
         "writing"
+      ],
+      "installable": true,
+      "wishlist": false
+    },
+    {
+      "name": "clawhub-inbox-triage",
+      "title": "邮箱 Inbox Triage",
+      "description": "邮件分流、起草回复、标紧急。ClawHub @clawdssen/inbox-triage（偏 Gmail/IMAP；手机可用 openclaw-converter）。",
+      "category": "comms",
+      "license": "MIT",
+      "size_kb": 2,
+      "compatibility": "openclaw",
+      "source_url": "https://clawhub.ai/api/v1/skills/inbox-triage/file?path=SKILL.md&owner=clawdssen",
+      "is_bundled": false,
+      "origin": "clawhub",
+      "tags": [
+        "clawhub",
+        "email",
+        "triage"
+      ],
+      "installable": true,
+      "wishlist": false
+    },
+    {
+      "name": "clawhub-meeting-notes",
+      "title": "Meeting Notes（ClawHub）",
+      "description": "中文会议纪要整理模板。ClawHub @xiaoffff-f/meeting-notes。",
+      "category": "productivity",
+      "license": "MIT",
+      "size_kb": 2,
+      "compatibility": "any",
+      "source_url": "https://clawhub.ai/api/v1/skills/meeting-notes/file?path=SKILL.md&owner=xiaoffff-f",
+      "is_bundled": false,
+      "origin": "clawhub",
+      "tags": [
+        "clawhub",
+        "meeting",
+        "zh"
+      ],
+      "installable": true,
+      "wishlist": false
+    },
+    {
+      "name": "clawhub-newsflash",
+      "title": "Newsflash 资讯快报",
+      "description": "个性化新闻简报与突发提醒。ClawHub @zatmonkey/newsflash。",
+      "category": "info",
+      "license": "MIT",
+      "size_kb": 2,
+      "compatibility": "openclaw",
+      "source_url": "https://clawhub.ai/api/v1/skills/newsflash/file?path=SKILL.md&owner=zatmonkey",
+      "is_bundled": false,
+      "origin": "clawhub",
+      "tags": [
+        "clawhub",
+        "news"
       ],
       "installable": true,
       "wishlist": false
@@ -178,6 +307,63 @@
       "wishlist": false
     },
     {
+      "name": "clawhub-pack-list",
+      "title": "Pack List 行李清单",
+      "description": "按目的地与行程定制打包清单。ClawHub @dingtom336-gif/pack-list。",
+      "category": "productivity",
+      "license": "MIT",
+      "size_kb": 2,
+      "compatibility": "any",
+      "source_url": "https://clawhub.ai/api/v1/skills/pack-list/file?path=SKILL.md&owner=dingtom336-gif",
+      "is_bundled": false,
+      "origin": "clawhub",
+      "tags": [
+        "clawhub",
+        "travel"
+      ],
+      "installable": true,
+      "wishlist": false
+    },
+    {
+      "name": "clawhub-pomodoro-cn",
+      "title": "中文番茄钟",
+      "description": "中文番茄专注计时。ClawHub @freedompixels/cn-pomodoro-timer。",
+      "category": "productivity",
+      "license": "MIT",
+      "size_kb": 2,
+      "compatibility": "openclaw",
+      "source_url": "https://clawhub.ai/api/v1/skills/cn-pomodoro-timer/file?path=SKILL.md&owner=freedompixels",
+      "is_bundled": false,
+      "origin": "clawhub",
+      "tags": [
+        "clawhub",
+        "pomodoro",
+        "zh"
+      ],
+      "installable": true,
+      "wishlist": false
+    },
+    {
+      "name": "clawhub-rss-brief",
+      "title": "RSS 24h 中文简报",
+      "description": "从 OPML/RSS 拉取近 N 小时文章并分类中文简报（Karpathy 订阅源思路）。ClawHub @seandong/ak-rss-24h-brief。",
+      "category": "info",
+      "license": "MIT",
+      "size_kb": 2,
+      "compatibility": "openclaw",
+      "source_url": "https://clawhub.ai/api/v1/skills/ak-rss-24h-brief/file?path=SKILL.md&owner=seandong",
+      "is_bundled": false,
+      "origin": "clawhub",
+      "tags": [
+        "clawhub",
+        "rss",
+        "briefing",
+        "mobile-friendly"
+      ],
+      "installable": true,
+      "wishlist": false
+    },
+    {
       "name": "clawhub-skill-creator",
       "title": "Skill Creator",
       "description": "指导用户口头/对话生成有效 Skill（结构、边界、渐进披露）。来自 ClawHub。",
@@ -210,6 +396,42 @@
       "tags": [
         "clawhub",
         "security"
+      ],
+      "installable": true,
+      "wishlist": false
+    },
+    {
+      "name": "clawhub-todo",
+      "title": "Todo（执行引擎）",
+      "description": "自然语言待办与下一步行动。ClawHub @agenticio/todo。",
+      "category": "productivity",
+      "license": "MIT",
+      "size_kb": 2,
+      "compatibility": "openclaw",
+      "source_url": "https://clawhub.ai/api/v1/skills/todo/file?path=SKILL.md&owner=agenticio",
+      "is_bundled": false,
+      "origin": "clawhub",
+      "tags": [
+        "clawhub",
+        "todo"
+      ],
+      "installable": true,
+      "wishlist": false
+    },
+    {
+      "name": "clawhub-todo-tracker",
+      "title": "Todo Tracker",
+      "description": "跨会话持久待办草稿本。ClawHub @jdrhyne/todo-tracker（下载量很高）。",
+      "category": "productivity",
+      "license": "MIT",
+      "size_kb": 2,
+      "compatibility": "openclaw",
+      "source_url": "https://clawhub.ai/api/v1/skills/todo-tracker/file?path=SKILL.md&owner=jdrhyne",
+      "is_bundled": false,
+      "origin": "clawhub",
+      "tags": [
+        "clawhub",
+        "todo"
       ],
       "installable": true,
       "wishlist": false
@@ -780,6 +1002,49 @@
       "wishlist": false
     },
     {
+      "name": "ume-focus",
+      "title": "专注番茄钟",
+      "description": "25+5 专注计时，映射系统倒计时。参考 ClawHub focus-timer / 中文番茄钟。",
+      "category": "productivity",
+      "license": "AGPL-3.0",
+      "size_kb": 2,
+      "compatibility": "any",
+      "source_url": "https://umeskillhub.com/skills/ume-focus/SKILL.md",
+      "is_bundled": false,
+      "origin": "hosted",
+      "tags": [
+        "hosted",
+        "ume",
+        "pomodoro",
+        "timer",
+        "mobile",
+        "clawhub-inspired"
+      ],
+      "installable": true,
+      "wishlist": false
+    },
+    {
+      "name": "ume-habit",
+      "title": "习惯打卡",
+      "description": "本机笔记轻量习惯追踪：打卡、连续天数、提醒。参考 ClawHub habit-tracker。",
+      "category": "health",
+      "license": "AGPL-3.0",
+      "size_kb": 2,
+      "compatibility": "any",
+      "source_url": "https://umeskillhub.com/skills/ume-habit/SKILL.md",
+      "is_bundled": false,
+      "origin": "hosted",
+      "tags": [
+        "hosted",
+        "ume",
+        "habit",
+        "mobile",
+        "clawhub-inspired"
+      ],
+      "installable": true,
+      "wishlist": false
+    },
+    {
       "name": "ume-help",
       "title": "Ume Help",
       "description": "介绍微米AI（UME AI）能做什么、如何配置模型与 Skill。用户问「你能做什么」「帮助」「Skill 怎么用」「如何接入模型」时使用。",
@@ -794,6 +1059,94 @@
         "bundled",
         "ume"
       ]
+    },
+    {
+      "name": "ume-inbox-digest",
+      "title": "收件箱/通知分流",
+      "description": "通知与消息分流：紧急、待回复、可忽略，并给回复草稿。参考 ClawHub inbox-triage。",
+      "category": "comms",
+      "license": "AGPL-3.0",
+      "size_kb": 2,
+      "compatibility": "android",
+      "source_url": "https://umeskillhub.com/skills/ume-inbox-digest/SKILL.md",
+      "is_bundled": false,
+      "origin": "hosted",
+      "tags": [
+        "hosted",
+        "ume",
+        "inbox",
+        "notification",
+        "mobile",
+        "clawhub-inspired"
+      ],
+      "installable": true,
+      "wishlist": false
+    },
+    {
+      "name": "ume-meeting-notes",
+      "title": "会议纪要",
+      "description": "把转写/聊天/文档整理成决议+行动项会议纪要。改编自 ClawHub meeting-notes。",
+      "category": "productivity",
+      "license": "AGPL-3.0",
+      "size_kb": 2,
+      "compatibility": "any",
+      "source_url": "https://umeskillhub.com/skills/ume-meeting-notes/SKILL.md",
+      "is_bundled": false,
+      "origin": "hosted",
+      "tags": [
+        "hosted",
+        "ume",
+        "meeting",
+        "notes",
+        "mobile",
+        "clawhub-inspired"
+      ],
+      "installable": true,
+      "wishlist": false
+    },
+    {
+      "name": "ume-news-brief",
+      "title": "资讯早报",
+      "description": "按主题检索近 24h 要点并附链接，适合手机一屏阅读。参考 ClawHub RSS/newsflash。",
+      "category": "info",
+      "license": "AGPL-3.0",
+      "size_kb": 2,
+      "compatibility": "any",
+      "source_url": "https://umeskillhub.com/skills/ume-news-brief/SKILL.md",
+      "is_bundled": false,
+      "origin": "hosted",
+      "tags": [
+        "hosted",
+        "ume",
+        "news",
+        "briefing",
+        "mobile",
+        "clawhub-inspired"
+      ],
+      "installable": true,
+      "wishlist": false
+    },
+    {
+      "name": "ume-pack-list",
+      "title": "出行打包清单",
+      "description": "按目的地/季节/出行类型生成行李与证件清单。参考 ClawHub pack-list。",
+      "category": "productivity",
+      "license": "AGPL-3.0",
+      "size_kb": 2,
+      "compatibility": "any",
+      "source_url": "https://umeskillhub.com/skills/ume-pack-list/SKILL.md",
+      "is_bundled": false,
+      "origin": "hosted",
+      "tags": [
+        "hosted",
+        "ume",
+        "travel",
+        "checklist",
+        "mobile",
+        "clawhub-inspired"
+      ],
+      "installable": true,
+      "wishlist": false
     },
     {
       "name": "ume-summarize",
@@ -811,6 +1164,27 @@
         "ume",
         "summarize",
         "1.md"
+      ],
+      "installable": true,
+      "wishlist": false
+    },
+    {
+      "name": "ume-todo",
+      "title": "待办清单",
+      "description": "自然语言待办：拆分、优先级、写入笔记并设提醒。参考 ClawHub todo 生态。",
+      "category": "productivity",
+      "license": "AGPL-3.0",
+      "size_kb": 2,
+      "compatibility": "any",
+      "source_url": "https://umeskillhub.com/skills/ume-todo/SKILL.md",
+      "is_bundled": false,
+      "origin": "hosted",
+      "tags": [
+        "hosted",
+        "ume",
+        "todo",
+        "mobile",
+        "clawhub-inspired"
       ],
       "installable": true,
       "wishlist": false
@@ -899,6 +1273,25 @@
         "bundled",
         "ume"
       ]
+    },
+    {
+      "name": "wishlist-adb-device-control",
+      "title": "ADB 控机（不适合机内）",
+      "description": "GitHub 上 adb-claw / Midscene Android / agent-device 等需电脑 ADB，适合「电脑控手机」，不适合微米机内 Agent。仅作目录备注。",
+      "category": "device",
+      "license": "",
+      "size_kb": 2,
+      "compatibility": "desktop+adb",
+      "source_url": null,
+      "is_bundled": false,
+      "origin": "wishlist",
+      "tags": [
+        "adb",
+        "not-on-device",
+        "wishlist"
+      ],
+      "installable": false,
+      "wishlist": true
     },
     {
       "name": "wishlist-health",

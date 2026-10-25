@@ -1,0 +1,21 @@
+{
+  "name": "clawhub-inbox-triage",
+  "title": "邮箱 Inbox Triage",
+  "description": "邮件分流、起草回复、标紧急。ClawHub @clawdssen/inbox-triage（偏 Gmail/IMAP；手机可用 openclaw-converter）。",
+  "category": "comms",
+  "license": "MIT",
+  "size_kb": 2,
+  "compatibility": "openclaw",
+  "source_url": "https://clawhub.ai/api/v1/skills/inbox-triage/file?path=SKILL.md&owner=clawdssen",
+  "is_bundled": false,
+  "origin": "clawhub",
+  "tags": [
+    "clawhub",
+    "email",
+    "triage"
+  ],
+  "installable": true,
+  "wishlist": false,
+  "raw_url": "https://clawhub.ai/api/v1/skills/inbox-triage/file?path=SKILL.md&owner=clawdssen",
+  "ume_install": "skill_install_from_url"
+}

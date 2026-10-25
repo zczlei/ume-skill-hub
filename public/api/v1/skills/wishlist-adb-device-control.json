@@ -1,0 +1,21 @@
+{
+  "name": "wishlist-adb-device-control",
+  "title": "ADB 控机（不适合机内）",
+  "description": "GitHub 上 adb-claw / Midscene Android / agent-device 等需电脑 ADB，适合「电脑控手机」，不适合微米机内 Agent。仅作目录备注。",
+  "category": "device",
+  "license": "",
+  "size_kb": 2,
+  "compatibility": "desktop+adb",
+  "source_url": null,
+  "is_bundled": false,
+  "origin": "wishlist",
+  "tags": [
+    "adb",
+    "not-on-device",
+    "wishlist"
+  ],
+  "installable": false,
+  "wishlist": true,
+  "raw_url": null,
+  "ume_install": "unavailable"
+}

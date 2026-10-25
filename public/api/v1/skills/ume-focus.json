@@ -1,0 +1,24 @@
+{
+  "name": "ume-focus",
+  "title": "专注番茄钟",
+  "description": "25+5 专注计时，映射系统倒计时。参考 ClawHub focus-timer / 中文番茄钟。",
+  "category": "productivity",
+  "license": "AGPL-3.0",
+  "size_kb": 2,
+  "compatibility": "any",
+  "source_url": "https://umeskillhub.com/skills/ume-focus/SKILL.md",
+  "is_bundled": false,
+  "origin": "hosted",
+  "tags": [
+    "hosted",
+    "ume",
+    "pomodoro",
+    "timer",
+    "mobile",
+    "clawhub-inspired"
+  ],
+  "installable": true,
+  "wishlist": false,
+  "raw_url": "https://umeskillhub.com/skills/ume-focus/SKILL.md",
+  "ume_install": "skill_install_from_url"
+}

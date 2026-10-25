@@ -1,0 +1,24 @@
+{
+  "name": "ume-meeting-notes",
+  "title": "会议纪要",
+  "description": "把转写/聊天/文档整理成决议+行动项会议纪要。改编自 ClawHub meeting-notes。",
+  "category": "productivity",
+  "license": "AGPL-3.0",
+  "size_kb": 2,
+  "compatibility": "any",
+  "source_url": "https://umeskillhub.com/skills/ume-meeting-notes/SKILL.md",
+  "is_bundled": false,
+  "origin": "hosted",
+  "tags": [
+    "hosted",
+    "ume",
+    "meeting",
+    "notes",
+    "mobile",
+    "clawhub-inspired"
+  ],
+  "installable": true,
+  "wishlist": false,
+  "raw_url": "https://umeskillhub.com/skills/ume-meeting-notes/SKILL.md",
+  "ume_install": "skill_install_from_url"
+}

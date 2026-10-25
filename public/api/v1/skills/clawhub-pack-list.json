@@ -1,0 +1,20 @@
+{
+  "name": "clawhub-pack-list",
+  "title": "Pack List 行李清单",
+  "description": "按目的地与行程定制打包清单。ClawHub @dingtom336-gif/pack-list。",
+  "category": "productivity",
+  "license": "MIT",
+  "size_kb": 2,
+  "compatibility": "any",
+  "source_url": "https://clawhub.ai/api/v1/skills/pack-list/file?path=SKILL.md&owner=dingtom336-gif",
+  "is_bundled": false,
+  "origin": "clawhub",
+  "tags": [
+    "clawhub",
+    "travel"
+  ],
+  "installable": true,
+  "wishlist": false,
+  "raw_url": "https://clawhub.ai/api/v1/skills/pack-list/file?path=SKILL.md&owner=dingtom336-gif",
+  "ume_install": "skill_install_from_url"
+}
