@@ -7,4 +7,4 @@ pages_build_output_dir = "public"
 [vars]
 # 构建时也可用 GitHub Actions / CF 控制台注入 PUBLIC_BASE
 # Build-time absolute URLs for catalog source_url fields (also set in CI).
-# PUBLIC_BASE = "https://ume-skill-hub.pages.dev"
+# PUBLIC_BASE = "https://umeskillhub.com"

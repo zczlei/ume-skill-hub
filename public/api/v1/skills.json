@@ -1,13 +1,13 @@
 {
   "version": 2,
   "updated_at": "2026-10-25",
-  "public_base": "https://ume-skill-hub.pages.dev",
+  "public_base": "https://umeskillhub.com",
   "count": 57,
   "endpoints": {
-    "catalog": "https://ume-skill-hub.pages.dev/api/v1/catalog.json",
-    "skills": "https://ume-skill-hub.pages.dev/api/v1/skills.json",
-    "skill": "https://ume-skill-hub.pages.dev/api/v1/skills/{name}.json",
-    "raw": "https://ume-skill-hub.pages.dev/skills/{name}/SKILL.md"
+    "catalog": "https://umeskillhub.com/api/v1/catalog.json",
+    "skills": "https://umeskillhub.com/api/v1/skills.json",
+    "skill": "https://umeskillhub.com/api/v1/skills/{name}.json",
+    "raw": "https://umeskillhub.com/skills/{name}/SKILL.md"
   },
   "skills": [
     {
@@ -766,7 +766,7 @@
       "license": "AGPL-3.0",
       "size_kb": 2,
       "compatibility": "any",
-      "source_url": "https://ume-skill-hub.pages.dev/skills/ume-expense/SKILL.md",
+      "source_url": "https://umeskillhub.com/skills/ume-expense/SKILL.md",
       "is_bundled": false,
       "origin": "hosted",
       "tags": [
@@ -803,7 +803,7 @@
       "license": "AGPL-3.0",
       "size_kb": 2,
       "compatibility": "any",
-      "source_url": "https://ume-skill-hub.pages.dev/skills/ume-summarize/SKILL.md",
+      "source_url": "https://umeskillhub.com/skills/ume-summarize/SKILL.md",
       "is_bundled": false,
       "origin": "hosted",
       "tags": [
@@ -823,7 +823,7 @@
       "license": "AGPL-3.0",
       "size_kb": 2,
       "compatibility": "any",
-      "source_url": "https://ume-skill-hub.pages.dev/skills/ume-translate/SKILL.md",
+      "source_url": "https://umeskillhub.com/skills/ume-translate/SKILL.md",
       "is_bundled": false,
       "origin": "hosted",
       "tags": [

@@ -2,7 +2,7 @@
 
 微米 AI 的技能集合站：浏览器可逛，App 可拉同一套 JSON 安装。
 
-**线上地址**：https://ume-skill-hub.pages.dev/
+**线上地址**：https://umeskillhub.com/
 
 **独立仓库**：https://github.com/zczlei/ume-skill-hub
 
@@ -27,7 +27,7 @@ npm run serve
 
 App 默认拉取：
 
-`https://ume-skill-hub.pages.dev/api/v1/catalog.json`
+`https://umeskillhub.com/api/v1/catalog.json`
 
 ## 数据同步（方案 B）
 

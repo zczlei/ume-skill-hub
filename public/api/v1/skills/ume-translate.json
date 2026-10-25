@@ -6,7 +6,7 @@
   "license": "AGPL-3.0",
   "size_kb": 2,
   "compatibility": "any",
-  "source_url": "https://ume-skill-hub.pages.dev/skills/ume-translate/SKILL.md",
+  "source_url": "https://umeskillhub.com/skills/ume-translate/SKILL.md",
   "is_bundled": false,
   "origin": "hosted",
   "tags": [
@@ -18,6 +18,6 @@
   ],
   "installable": true,
   "wishlist": false,
-  "raw_url": "https://ume-skill-hub.pages.dev/skills/ume-translate/SKILL.md",
+  "raw_url": "https://umeskillhub.com/skills/ume-translate/SKILL.md",
   "ume_install": "skill_install_from_url"
 }

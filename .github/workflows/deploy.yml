@@ -21,7 +21,7 @@ jobs:
 
       - name: Build catalog
         env:
-          PUBLIC_BASE: https://ume-skill-hub.pages.dev
+          PUBLIC_BASE: https://umeskillhub.com
         run: node scripts/build-catalog.mjs
 
       - name: Deploy to Cloudflare Pages

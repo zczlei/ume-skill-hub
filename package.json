@@ -4,8 +4,8 @@
   "type": "module",
   "scripts": {
     "sync": "node scripts/sync-default-skills.mjs",
-    "build": "PUBLIC_BASE=${PUBLIC_BASE:-https://ume-skill-hub.pages.dev} node scripts/build-catalog.mjs",
-    "build:pages": "PUBLIC_BASE=https://ume-skill-hub.pages.dev node scripts/build-catalog.mjs",
+    "build": "PUBLIC_BASE=${PUBLIC_BASE:-https://umeskillhub.com} node scripts/build-catalog.mjs",
+    "build:pages": "PUBLIC_BASE=https://umeskillhub.com node scripts/build-catalog.mjs",
     "deploy": "npm run build:pages && npx wrangler@4 pages deploy public --project-name=ume-skill-hub --branch=main --commit-dirty=true",
     "serve": "npm run build && python3 -m http.server 8787 --directory public"
   }
