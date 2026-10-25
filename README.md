@@ -7,7 +7,7 @@
 ## 本地预览
 
 ```bash
-cd skill-hub
+cd web/skill-hub
 npm run serve
 # 打开 http://127.0.0.1:8787
 ```
@@ -27,7 +27,7 @@ App 默认拉取：
 
 ## 自动发布（GitHub → Cloudflare Pages）
 
-推送 `skill-hub/**` 到 `ume-ai` 的 `ume/m3-local` / `main` / `master` 时，Actions 会：
+推送 `web/skill-hub/**` 到 `ume-ai` 的 `ume/m3-local` / `main` / `master` 时，Actions 会：
 
 1. `node scripts/build-catalog.mjs`（`PUBLIC_BASE=https://ume-skill-hub.pages.dev`）
 2. `wrangler pages deploy` → **ume-skill-hub** Pages 项目

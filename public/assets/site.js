@@ -7,6 +7,9 @@ const categoryEl = document.getElementById("category");
 const toast = document.getElementById("toast");
 const apiHelp = document.getElementById("api-help");
 const catalogUrlEl = document.getElementById("catalog-url");
+const statTotalEl = document.getElementById("stat-total");
+const statInstallableEl = document.getElementById("stat-installable");
+const statSourcesEl = document.getElementById("stat-sources");
 
 const base = new URL(".", location.href).href.replace(/\/$/, "");
 catalogUrlEl.textContent = `${base}/api/v1/catalog.json`;
@@ -37,10 +40,25 @@ function originOf(s) {
   return "wishlist";
 }
 
+function originLabel(origin) {
+  return {
+    bundled: "内置",
+    hosted: "本站托管",
+    clawhub: "ClawHub",
+    wishlist: "规划中",
+  }[origin] || origin;
+}
+
 function canInstall(s) {
   if (s.wishlist) return false;
   if (s.is_bundled) return true;
   return Boolean(s.source_url || s.installable);
+}
+
+function updateStats() {
+  statTotalEl.textContent = String(skills.length);
+  statInstallableEl.textContent = String(skills.filter(canInstall).length);
+  statSourcesEl.textContent = String(new Set(skills.map(originOf)).size);
 }
 
 function render() {
@@ -52,7 +70,7 @@ function render() {
     if (origin && originOf(s) !== origin) return false;
     if (category && s.category !== category) return false;
     if (!q) return true;
-    const hay = [s.name, s.title, s.description, ...(s.tags || [])]
+    const hay = [s.name, s.title, s.description, s.category, ...(s.tags || [])]
       .join(" ")
       .toLowerCase();
     return hay.includes(q);
@@ -67,11 +85,13 @@ function render() {
     const card = document.createElement("article");
     card.className = "card";
     const installable = canInstall(s);
+    const originChipClass = installable ? "ok" : "warn";
     card.innerHTML = `
       <div class="chips">
-        <span class="chip">${s.category || "general"}</span>
-        <span class="chip ${installable ? "ok" : "warn"}">${o}</span>
+        <span class="chip accent">${s.category || "general"}</span>
+        <span class="chip ${originChipClass}">${originLabel(o)}</span>
         ${s.is_bundled ? '<span class="chip ok">bundled</span>' : ""}
+        ${s.tags?.length ? `<span class="chip">${s.tags[0]}</span>` : ""}
       </div>
       <h3>${escapeHtml(s.title || s.name)}</h3>
       <p>${escapeHtml(s.description || "")}</p>
@@ -81,7 +101,7 @@ function render() {
 
     const detail = document.createElement("a");
     detail.href = `api/v1/skills/${encodeURIComponent(s.name)}.json`;
-    detail.textContent = "详情 JSON";
+    detail.textContent = "详情";
     actions.appendChild(detail);
 
     if (s.source_url && !s.is_bundled) {
@@ -160,6 +180,7 @@ const data = await fetch("api/v1/skills.json").then((r) => {
 });
 skills = data.skills || [];
 fillCategories();
+updateStats();
 render();
 
 qEl.addEventListener("input", render);

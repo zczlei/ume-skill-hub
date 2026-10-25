@@ -5,10 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>UME Skill Hub · 微米 AI 技能集合</title>
   <meta name="description" content="浏览、搜索并安装微米 AI Skills。提供 catalog API，App 可直接拉取。" />
-  <meta name="theme-color" content="#0e1a17" />
+  <meta name="theme-color" content="#0b0f14" />
+  <meta property="og:title" content="UME Skill Hub · 微米 AI 技能集合" />
+  <meta property="og:description" content="浏览、搜索并安装微米 AI Skills。提供 catalog API，App 可直接拉取。" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://ume-skill-hub.pages.dev/" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,550;9..144,650&family=IBM+Plex+Mono:wght@400;500&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,550;9..144,650&family=JetBrains+Mono:wght@400;500;600&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="assets/site.css" />
 </head>
 <body>
@@ -27,6 +31,7 @@
     </header>
 
     <section class="hero">
+      <div class="hero-kicker"><span class="badge-dot"></span>UME AI Skill Hub</div>
       <h1>给手机助理的技能货架</h1>
       <p>
         汇集 App 内置 Skill、可一键安装的编排 Skill，以及从
@@ -36,6 +41,11 @@
       <div class="cta-row">
         <a class="btn" href="#catalog">浏览技能</a>
         <a class="btn secondary" href="#api">查看接口</a>
+      </div>
+      <div class="stats" aria-label="统计">
+        <div class="stat"><b id="stat-total">0</b><span>收录技能</span></div>
+        <div class="stat"><b id="stat-installable">0</b><span>可安装</span></div>
+        <div class="stat"><b id="stat-sources">0</b><span>来源渠道</span></div>
       </div>
     </section>
 
