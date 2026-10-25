@@ -10,6 +10,11 @@
   <meta property="og:description" content="浏览、搜索并安装微米 AI Skills。提供 catalog API，App 可直接拉取。" />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://umeskillhub.com/" />
+  <meta property="og:image" content="https://umeskillhub.com/assets/og-image.png" />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="icon" href="favicon-32.png" type="image/png" sizes="32x32" />
+  <link rel="icon" href="favicon-192.png" type="image/png" sizes="192x192" />
+  <link rel="apple-touch-icon" href="apple-touch-icon.png" sizes="180x180" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,550;9..144,650&family=JetBrains+Mono:wght@400;500;600&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
@@ -18,10 +23,13 @@
 <body>
   <div class="wrap">
     <header class="top">
-      <div class="brand">
-        <strong>UME Skill Hub</strong>
-        <span>微米 AI · 技能集合与安装接口</span>
-      </div>
+      <a class="brand" href="/">
+        <img class="brand-mark" src="assets/logo.png" width="40" height="40" alt="" />
+        <span class="brand-text">
+          <strong>UME Skill Hub</strong>
+          <span>微米 AI · 技能集合与安装接口</span>
+        </span>
+      </a>
       <nav class="nav">
         <a href="#catalog">目录</a>
         <a href="#api">API</a>
@@ -55,7 +63,7 @@
         <div class="filters">
           <select id="origin">
             <option value="">全部来源</option>
-            <option value="bundled">内置</option>
+            <option value="bundled">bundled</option>
             <option value="hosted">本站托管</option>
             <option value="clawhub">ClawHub</option>
             <option value="wishlist">规划中</option>

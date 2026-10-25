@@ -42,7 +42,7 @@ function originOf(s) {
 
 function originLabel(origin) {
   return {
-    bundled: "内置",
+    bundled: "bundled",
     hosted: "本站托管",
     clawhub: "ClawHub",
     wishlist: "规划中",
@@ -86,12 +86,15 @@ function render() {
     card.className = "card";
     const installable = canInstall(s);
     const originChipClass = installable ? "ok" : "warn";
+    const originText = originLabel(o);
+    const tag0 = s.tags?.[0];
+    const showTag =
+      tag0 && tag0.toLowerCase() !== originText.toLowerCase() && tag0.toLowerCase() !== o;
     card.innerHTML = `
       <div class="chips">
         <span class="chip accent">${s.category || "general"}</span>
-        <span class="chip ${originChipClass}">${originLabel(o)}</span>
-        ${s.is_bundled ? '<span class="chip ok">bundled</span>' : ""}
-        ${s.tags?.length ? `<span class="chip">${s.tags[0]}</span>` : ""}
+        <span class="chip ${originChipClass}">${escapeHtml(originText)}</span>
+        ${showTag ? `<span class="chip">${escapeHtml(tag0)}</span>` : ""}
       </div>
       <h3>${escapeHtml(s.title || s.name)}</h3>
       <p>${escapeHtml(s.description || "")}</p>
