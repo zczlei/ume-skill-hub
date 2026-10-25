@@ -146,8 +146,7 @@ code {
   font-size: clamp(2.4rem, 5.6vw, 4.5rem);
   line-height: 1.02;
   letter-spacing: -0.05em;
-  max-width: 14ch;
-  text-wrap: balance;
+  white-space: nowrap;
 }
 .hero p {
   margin: 0;
