@@ -83,7 +83,7 @@ function render() {
   for (const s of filtered) {
     const o = originOf(s);
     const card = document.createElement("article");
-    card.className = "card";
+    card.className = `card card-${o}`;
     const installable = canInstall(s);
     const originChipClass = installable ? "ok" : "warn";
     const originText = originLabel(o);
@@ -96,7 +96,10 @@ function render() {
         <span class="chip ${originChipClass}">${escapeHtml(originText)}</span>
         ${showTag ? `<span class="chip">${escapeHtml(tag0)}</span>` : ""}
       </div>
-      <h3>${escapeHtml(s.title || s.name)}</h3>
+      <div class="card-title">
+        <h3>${escapeHtml(s.title || s.name)}</h3>
+        <span class="card-dot ${installable ? "is-ready" : "is-planned"}" title="${installable ? "可用" : "规划中"}"></span>
+      </div>
       <p>${escapeHtml(s.description || "")}</p>
       <div class="card-actions"></div>
     `;
