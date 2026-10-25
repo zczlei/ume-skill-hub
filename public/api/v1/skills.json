@@ -281,8 +281,7 @@
       "is_bundled": false,
       "origin": "clawhub",
       "tags": [
-        "clawhub",
-        "1.md"
+        "clawhub"
       ],
       "installable": true,
       "wishlist": false
@@ -300,7 +299,6 @@
       "origin": "clawhub",
       "tags": [
         "clawhub",
-        "1.md",
         "notes"
       ],
       "installable": true,
@@ -376,7 +374,6 @@
       "origin": "clawhub",
       "tags": [
         "clawhub",
-        "1.md",
         "meta"
       ],
       "installable": true,
@@ -983,7 +980,7 @@
     {
       "name": "ume-expense",
       "title": "记账报销",
-      "description": "对接小票/发票识别（ume_receipt），整理金额、类目与报销条目。对应 1.md finance/expense。",
+      "description": "对接小票/发票识别（ume_receipt），整理金额、类目与报销条目。",
       "category": "finance",
       "license": "AGPL-3.0",
       "size_kb": 2,
@@ -995,8 +992,7 @@
         "hosted",
         "ume",
         "expense",
-        "receipt",
-        "1.md"
+        "receipt"
       ],
       "installable": true,
       "wishlist": false
@@ -1151,7 +1147,7 @@
     {
       "name": "ume-summarize",
       "title": "通用摘要",
-      "description": "统一摘要网页、文件要点、聊天记录或长文；说明来源与截断。对应 1.md 的 summarize。",
+      "description": "统一摘要网页、文件要点、聊天记录或长文；说明来源与截断。",
       "category": "productivity",
       "license": "AGPL-3.0",
       "size_kb": 2,
@@ -1162,8 +1158,7 @@
       "tags": [
         "hosted",
         "ume",
-        "summarize",
-        "1.md"
+        "summarize"
       ],
       "installable": true,
       "wishlist": false
@@ -1204,7 +1199,6 @@
         "hosted",
         "ume",
         "translation",
-        "1.md",
         "mobile"
       ],
       "installable": true,
@@ -1296,7 +1290,7 @@
     {
       "name": "wishlist-health",
       "title": "健康（规划中）",
-      "description": "步数/睡眠等 — 计划对接 Health Connect。见 1.md / MobileClaw。暂不可一键安装。",
+      "description": "步数/睡眠等 — 计划对接 Health Connect。见 MobileClaw。暂不可一键安装。",
       "category": "health",
       "license": "",
       "size_kb": 2,
@@ -1305,7 +1299,6 @@
       "is_bundled": false,
       "origin": "wishlist",
       "tags": [
-        "1.md",
         "MobileClaw",
         "wishlist"
       ],
@@ -1315,7 +1308,7 @@
     {
       "name": "wishlist-smart-home",
       "title": "智能家居（规划中）",
-      "description": "米家/Home 等 — 靠 a11y 或 HTTP。见 1.md / MobileClaw。暂不可一键安装。",
+      "description": "米家/Home 等 — 靠 a11y 或 HTTP。见 MobileClaw。暂不可一键安装。",
       "category": "iot",
       "license": "",
       "size_kb": 2,
@@ -1324,7 +1317,6 @@
       "is_bundled": false,
       "origin": "wishlist",
       "tags": [
-        "1.md",
         "wishlist"
       ],
       "installable": false,

@@ -1,5 +1,5 @@
 {
-  "notes": "1.md + ClawHub/GitHub 精选；偏手机助理可跑的编排。hosted=本站 SKILL.md；clawhub=可 skill_install_from_url；wishlist=暂不可装。已排除强依赖桌面 ADB/xclip/macOS 专用项。",
+  "notes": "ClawHub/GitHub 精选；偏手机助理可跑的编排。hosted=本站 SKILL.md；clawhub=可 skill_install_from_url；wishlist=暂不可装。已排除强依赖桌面 ADB/xclip/macOS 专用项。",
   "skills": [
     {
       "name": "ume-translate",
@@ -9,27 +9,35 @@
       "license": "AGPL-3.0",
       "compatibility": "any",
       "origin": "hosted",
-      "tags": ["translation", "1.md", "mobile"]
+      "tags": [
+        "translation",
+        "mobile"
+      ]
     },
     {
       "name": "ume-summarize",
       "title": "通用摘要",
-      "description": "统一摘要网页、文件要点、聊天记录或长文；说明来源与截断。对应 1.md 的 summarize。",
+      "description": "统一摘要网页、文件要点、聊天记录或长文；说明来源与截断。",
       "category": "productivity",
       "license": "AGPL-3.0",
       "compatibility": "any",
       "origin": "hosted",
-      "tags": ["summarize", "1.md"]
+      "tags": [
+        "summarize"
+      ]
     },
     {
       "name": "ume-expense",
       "title": "记账报销",
-      "description": "对接小票/发票识别（ume_receipt），整理金额、类目与报销条目。对应 1.md finance/expense。",
+      "description": "对接小票/发票识别（ume_receipt），整理金额、类目与报销条目。",
       "category": "finance",
       "license": "AGPL-3.0",
       "compatibility": "any",
       "origin": "hosted",
-      "tags": ["expense", "receipt", "1.md"]
+      "tags": [
+        "expense",
+        "receipt"
+      ]
     },
     {
       "name": "ume-meeting-notes",
@@ -39,7 +47,12 @@
       "license": "AGPL-3.0",
       "compatibility": "any",
       "origin": "hosted",
-      "tags": ["meeting", "notes", "mobile", "clawhub-inspired"]
+      "tags": [
+        "meeting",
+        "notes",
+        "mobile",
+        "clawhub-inspired"
+      ]
     },
     {
       "name": "ume-todo",
@@ -49,7 +62,11 @@
       "license": "AGPL-3.0",
       "compatibility": "any",
       "origin": "hosted",
-      "tags": ["todo", "mobile", "clawhub-inspired"]
+      "tags": [
+        "todo",
+        "mobile",
+        "clawhub-inspired"
+      ]
     },
     {
       "name": "ume-pack-list",
@@ -59,7 +76,12 @@
       "license": "AGPL-3.0",
       "compatibility": "any",
       "origin": "hosted",
-      "tags": ["travel", "checklist", "mobile", "clawhub-inspired"]
+      "tags": [
+        "travel",
+        "checklist",
+        "mobile",
+        "clawhub-inspired"
+      ]
     },
     {
       "name": "ume-focus",
@@ -69,7 +91,12 @@
       "license": "AGPL-3.0",
       "compatibility": "any",
       "origin": "hosted",
-      "tags": ["pomodoro", "timer", "mobile", "clawhub-inspired"]
+      "tags": [
+        "pomodoro",
+        "timer",
+        "mobile",
+        "clawhub-inspired"
+      ]
     },
     {
       "name": "ume-habit",
@@ -79,7 +106,11 @@
       "license": "AGPL-3.0",
       "compatibility": "any",
       "origin": "hosted",
-      "tags": ["habit", "mobile", "clawhub-inspired"]
+      "tags": [
+        "habit",
+        "mobile",
+        "clawhub-inspired"
+      ]
     },
     {
       "name": "ume-inbox-digest",
@@ -89,7 +120,12 @@
       "license": "AGPL-3.0",
       "compatibility": "android",
       "origin": "hosted",
-      "tags": ["inbox", "notification", "mobile", "clawhub-inspired"]
+      "tags": [
+        "inbox",
+        "notification",
+        "mobile",
+        "clawhub-inspired"
+      ]
     },
     {
       "name": "ume-news-brief",
@@ -99,7 +135,12 @@
       "license": "AGPL-3.0",
       "compatibility": "any",
       "origin": "hosted",
-      "tags": ["news", "briefing", "mobile", "clawhub-inspired"]
+      "tags": [
+        "news",
+        "briefing",
+        "mobile",
+        "clawhub-inspired"
+      ]
     },
     {
       "name": "clawhub-humanizer",
@@ -111,7 +152,10 @@
       "origin": "clawhub",
       "owner": "biostartechnology",
       "slug": "humanizer",
-      "tags": ["clawhub", "writing"]
+      "tags": [
+        "clawhub",
+        "writing"
+      ]
     },
     {
       "name": "clawhub-obsidian",
@@ -123,7 +167,10 @@
       "origin": "clawhub",
       "owner": "steipete",
       "slug": "obsidian",
-      "tags": ["clawhub", "1.md", "notes"]
+      "tags": [
+        "clawhub",
+        "notes"
+      ]
     },
     {
       "name": "clawhub-notion",
@@ -135,7 +182,9 @@
       "owner": "steipete",
       "slug": "notion",
       "origin": "clawhub",
-      "tags": ["clawhub", "1.md"]
+      "tags": [
+        "clawhub"
+      ]
     },
     {
       "name": "clawhub-skill-creator",
@@ -147,7 +196,10 @@
       "origin": "clawhub",
       "owner": "chindden",
       "slug": "skill-creator",
-      "tags": ["clawhub", "1.md", "meta"]
+      "tags": [
+        "clawhub",
+        "meta"
+      ]
     },
     {
       "name": "clawhub-skill-vetter",
@@ -159,7 +211,10 @@
       "origin": "clawhub",
       "owner": "spclaudehome",
       "slug": "skill-vetter",
-      "tags": ["clawhub", "security"]
+      "tags": [
+        "clawhub",
+        "security"
+      ]
     },
     {
       "name": "clawhub-rss-brief",
@@ -171,7 +226,12 @@
       "origin": "clawhub",
       "owner": "seandong",
       "slug": "ak-rss-24h-brief",
-      "tags": ["clawhub", "rss", "briefing", "mobile-friendly"]
+      "tags": [
+        "clawhub",
+        "rss",
+        "briefing",
+        "mobile-friendly"
+      ]
     },
     {
       "name": "clawhub-inbox-triage",
@@ -183,7 +243,11 @@
       "origin": "clawhub",
       "owner": "clawdssen",
       "slug": "inbox-triage",
-      "tags": ["clawhub", "email", "triage"]
+      "tags": [
+        "clawhub",
+        "email",
+        "triage"
+      ]
     },
     {
       "name": "clawhub-daily-briefing",
@@ -195,7 +259,10 @@
       "origin": "clawhub",
       "owner": "antgly",
       "slug": "daily-briefing",
-      "tags": ["clawhub", "briefing"]
+      "tags": [
+        "clawhub",
+        "briefing"
+      ]
     },
     {
       "name": "clawhub-todo",
@@ -207,7 +274,10 @@
       "origin": "clawhub",
       "owner": "agenticio",
       "slug": "todo",
-      "tags": ["clawhub", "todo"]
+      "tags": [
+        "clawhub",
+        "todo"
+      ]
     },
     {
       "name": "clawhub-todo-tracker",
@@ -219,7 +289,10 @@
       "origin": "clawhub",
       "owner": "jdrhyne",
       "slug": "todo-tracker",
-      "tags": ["clawhub", "todo"]
+      "tags": [
+        "clawhub",
+        "todo"
+      ]
     },
     {
       "name": "clawhub-grocery",
@@ -231,7 +304,11 @@
       "origin": "clawhub",
       "owner": "ivangdavila",
       "slug": "grocery",
-      "tags": ["clawhub", "grocery", "shopping"]
+      "tags": [
+        "clawhub",
+        "grocery",
+        "shopping"
+      ]
     },
     {
       "name": "clawhub-meeting-notes",
@@ -243,7 +320,11 @@
       "origin": "clawhub",
       "owner": "xiaoffff-f",
       "slug": "meeting-notes",
-      "tags": ["clawhub", "meeting", "zh"]
+      "tags": [
+        "clawhub",
+        "meeting",
+        "zh"
+      ]
     },
     {
       "name": "clawhub-pack-list",
@@ -255,7 +336,10 @@
       "origin": "clawhub",
       "owner": "dingtom336-gif",
       "slug": "pack-list",
-      "tags": ["clawhub", "travel"]
+      "tags": [
+        "clawhub",
+        "travel"
+      ]
     },
     {
       "name": "clawhub-habit-tracker",
@@ -267,7 +351,10 @@
       "origin": "clawhub",
       "owner": "jhillin8",
       "slug": "habit-tracker",
-      "tags": ["clawhub", "habit"]
+      "tags": [
+        "clawhub",
+        "habit"
+      ]
     },
     {
       "name": "clawhub-focus-timer",
@@ -279,7 +366,10 @@
       "origin": "clawhub",
       "owner": "theshadowrose",
       "slug": "focus-timer",
-      "tags": ["clawhub", "pomodoro"]
+      "tags": [
+        "clawhub",
+        "pomodoro"
+      ]
     },
     {
       "name": "clawhub-pomodoro-cn",
@@ -291,7 +381,11 @@
       "origin": "clawhub",
       "owner": "freedompixels",
       "slug": "cn-pomodoro-timer",
-      "tags": ["clawhub", "pomodoro", "zh"]
+      "tags": [
+        "clawhub",
+        "pomodoro",
+        "zh"
+      ]
     },
     {
       "name": "clawhub-newsflash",
@@ -303,27 +397,35 @@
       "origin": "clawhub",
       "owner": "zatmonkey",
       "slug": "newsflash",
-      "tags": ["clawhub", "news"]
+      "tags": [
+        "clawhub",
+        "news"
+      ]
     },
     {
       "name": "wishlist-health",
       "title": "健康（规划中）",
-      "description": "步数/睡眠等 — 计划对接 Health Connect。见 1.md / MobileClaw。暂不可一键安装。",
+      "description": "步数/睡眠等 — 计划对接 Health Connect。见 MobileClaw。暂不可一键安装。",
       "category": "health",
       "license": "",
       "compatibility": "android",
       "origin": "wishlist",
-      "tags": ["1.md", "MobileClaw", "wishlist"]
+      "tags": [
+        "MobileClaw",
+        "wishlist"
+      ]
     },
     {
       "name": "wishlist-smart-home",
       "title": "智能家居（规划中）",
-      "description": "米家/Home 等 — 靠 a11y 或 HTTP。见 1.md / MobileClaw。暂不可一键安装。",
+      "description": "米家/Home 等 — 靠 a11y 或 HTTP。见 MobileClaw。暂不可一键安装。",
       "category": "iot",
       "license": "",
       "compatibility": "android",
       "origin": "wishlist",
-      "tags": ["1.md", "wishlist"]
+      "tags": [
+        "wishlist"
+      ]
     },
     {
       "name": "wishlist-adb-device-control",
@@ -333,7 +435,11 @@
       "license": "",
       "compatibility": "desktop+adb",
       "origin": "wishlist",
-      "tags": ["adb", "not-on-device", "wishlist"]
+      "tags": [
+        "adb",
+        "not-on-device",
+        "wishlist"
+      ]
     }
   ]
 }

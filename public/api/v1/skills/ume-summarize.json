@@ -1,7 +1,7 @@
 {
   "name": "ume-summarize",
   "title": "通用摘要",
-  "description": "统一摘要网页、文件要点、聊天记录或长文；说明来源与截断。对应 1.md 的 summarize。",
+  "description": "统一摘要网页、文件要点、聊天记录或长文；说明来源与截断。",
   "category": "productivity",
   "license": "AGPL-3.0",
   "size_kb": 2,
@@ -12,8 +12,7 @@
   "tags": [
     "hosted",
     "ume",
-    "summarize",
-    "1.md"
+    "summarize"
   ],
   "installable": true,
   "wishlist": false,

@@ -1,7 +1,7 @@
 {
   "name": "wishlist-smart-home",
   "title": "智能家居（规划中）",
-  "description": "米家/Home 等 — 靠 a11y 或 HTTP。见 1.md / MobileClaw。暂不可一键安装。",
+  "description": "米家/Home 等 — 靠 a11y 或 HTTP。见 MobileClaw。暂不可一键安装。",
   "category": "iot",
   "license": "",
   "size_kb": 2,
@@ -10,7 +10,6 @@
   "is_bundled": false,
   "origin": "wishlist",
   "tags": [
-    "1.md",
     "wishlist"
   ],
   "installable": false,

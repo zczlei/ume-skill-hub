@@ -1,7 +1,7 @@
 {
   "name": "ume-expense",
   "title": "记账报销",
-  "description": "对接小票/发票识别（ume_receipt），整理金额、类目与报销条目。对应 1.md finance/expense。",
+  "description": "对接小票/发票识别（ume_receipt），整理金额、类目与报销条目。",
   "category": "finance",
   "license": "AGPL-3.0",
   "size_kb": 2,
@@ -13,8 +13,7 @@
     "hosted",
     "ume",
     "expense",
-    "receipt",
-    "1.md"
+    "receipt"
   ],
   "installable": true,
   "wishlist": false,

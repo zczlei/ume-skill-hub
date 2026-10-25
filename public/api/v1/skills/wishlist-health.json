@@ -1,7 +1,7 @@
 {
   "name": "wishlist-health",
   "title": "健康（规划中）",
-  "description": "步数/睡眠等 — 计划对接 Health Connect。见 1.md / MobileClaw。暂不可一键安装。",
+  "description": "步数/睡眠等 — 计划对接 Health Connect。见 MobileClaw。暂不可一键安装。",
   "category": "health",
   "license": "",
   "size_kb": 2,
@@ -10,7 +10,6 @@
   "is_bundled": false,
   "origin": "wishlist",
   "tags": [
-    "1.md",
     "MobileClaw",
     "wishlist"
   ],
