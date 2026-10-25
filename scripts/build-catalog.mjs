@@ -12,14 +12,11 @@ import { fileURLToPath } from "node:url";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
-const REPO = path.resolve(ROOT, "..");
 const PUBLIC = path.join(ROOT, "public");
 const HOSTED = path.join(ROOT, "content", "hosted");
 const CURATED = path.join(ROOT, "content", "curated.json");
-const DEFAULT_SKILLS = path.join(
-  REPO,
-  "app/src/main/assets/default-skills",
-);
+// Snapshot of ume-ai default-skills, synced by scripts/sync-default-skills.mjs
+const DEFAULT_SKILLS = path.join(ROOT, "content", "default-skills");
 
 const PUBLIC_BASE = (process.env.PUBLIC_BASE || "").replace(/\/$/, "");
 
