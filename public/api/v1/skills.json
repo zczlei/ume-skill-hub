@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "updated_at": "2026-10-25",
+  "updated_at": "2026-10-29",
   "public_base": "https://umeskillhub.com",
-  "count": 77,
+  "count": 80,
   "endpoints": {
     "catalog": "https://umeskillhub.com/api/v1/catalog.json",
     "skills": "https://umeskillhub.com/api/v1/skills.json",
@@ -882,6 +882,22 @@
       ]
     },
     {
+      "name": "ume_douyin_download",
+      "title": "Ume Douyin Download",
+      "description": "下载抖音短视频（含 v.douyin.com 短链与分享口令）。用户说「下载这个抖音」「抖音能下吗」「保存抖音视频」或粘贴抖音分享文案/链接时使用。",
+      "category": "media",
+      "license": "AGPL-3.0",
+      "size_kb": 2,
+      "compatibility": "any",
+      "source_url": null,
+      "is_bundled": true,
+      "origin": "bundled",
+      "tags": [
+        "bundled",
+        "ume"
+      ]
+    },
+    {
       "name": "ume_location",
       "title": "Ume Location",
       "description": "获取用户当前位置与城市名。用户问「我在哪」「附近」「今天天气」且未提城市时，先用 ume_location。",
@@ -948,10 +964,26 @@
     {
       "name": "ume_video_downloader",
       "title": "Ume Video Downloader",
-      "description": "下载公开视频链接。用户说「下载这个视频」「帮我存一下这个 TikTok/YouTube」时使用 ume_video_downloader。",
+      "description": "下载公开视频链接，或 attach_for_model 后给模型看。用户说「下载这个视频」或分析非 YouTube/B站链接时使用。国内抖音请用 ume_douyin_download。",
       "category": "media",
       "license": "AGPL-3.0",
-      "size_kb": 1,
+      "size_kb": 2,
+      "compatibility": "any",
+      "source_url": null,
+      "is_bundled": true,
+      "origin": "bundled",
+      "tags": [
+        "bundled",
+        "ume"
+      ]
+    },
+    {
+      "name": "ume_xhs_download",
+      "title": "Ume Xhs Download",
+      "description": "下载小红书视频笔记（含 xhslink.cn 短链与分享口令）。用户说「下载这个小红书」「小红书能下吗」「保存小红书视频」或粘贴小红书分享文案/链接时使用。",
+      "category": "media",
+      "license": "AGPL-3.0",
+      "size_kb": 2,
       "compatibility": "any",
       "source_url": null,
       "is_bundled": true,
@@ -1203,6 +1235,22 @@
       ],
       "installable": true,
       "wishlist": false
+    },
+    {
+      "name": "video-analyze",
+      "title": "Video Analyze",
+      "description": "分析视频在讲什么。用户发视频附件或视频链接并问「讲什么/总结/内容」时使用本 skill。",
+      "category": "media",
+      "license": "AGPL-3.0",
+      "size_kb": 2,
+      "compatibility": "any",
+      "source_url": null,
+      "is_bundled": true,
+      "origin": "bundled",
+      "tags": [
+        "bundled",
+        "ume"
+      ]
     },
     {
       "name": "virtual-piano",

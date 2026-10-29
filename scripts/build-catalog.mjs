@@ -56,12 +56,13 @@ function titleCase(name) {
 
 function guessCategory(name, desc) {
   const s = `${name} ${desc}`.toLowerCase();
-  if (/memory|笔记|数字|纪念|储物/.test(s)) return "memory";
+  if (/memory|纪念|储物|备忘/.test(s)) return "memory";
   if (/weather|天气/.test(s)) return "info";
   if (/gmail|mail|sms|whatsapp|telegram|message/.test(s)) return "comms";
   if (/alarm|timer|schedule|reminder|calendar|日程/.test(s)) return "time";
-  if (/pdf|office|receipt|发票|文档|docx|xlsx/.test(s)) return "docs";
-  if (/youtube|bilibili|video|tiktok|media/.test(s)) return "media";
+  if (/pdf|office|receipt|发票|docx|xlsx/.test(s)) return "docs";
+  if (/youtube|bilibili|video|tiktok|media|视频|抖音|小红书|douyin|xhs/.test(s))
+    return "media";
   if (/map|location|定位|导航/.test(s)) return "maps";
   if (/shop|购物|比价/.test(s)) return "shopping";
   if (/device|a11y|phone|camera|settings|dark/.test(s)) return "device";

@@ -1,0 +1,18 @@
+{
+  "name": "video-analyze",
+  "title": "Video Analyze",
+  "description": "分析视频在讲什么。用户发视频附件或视频链接并问「讲什么/总结/内容」时使用本 skill。",
+  "category": "media",
+  "license": "AGPL-3.0",
+  "size_kb": 2,
+  "compatibility": "any",
+  "source_url": null,
+  "is_bundled": true,
+  "origin": "bundled",
+  "tags": [
+    "bundled",
+    "ume"
+  ],
+  "raw_url": null,
+  "ume_install": "bundled"
+}

@@ -1,0 +1,18 @@
+{
+  "name": "ume_xhs_download",
+  "title": "Ume Xhs Download",
+  "description": "下载小红书视频笔记（含 xhslink.cn 短链与分享口令）。用户说「下载这个小红书」「小红书能下吗」「保存小红书视频」或粘贴小红书分享文案/链接时使用。",
+  "category": "media",
+  "license": "AGPL-3.0",
+  "size_kb": 2,
+  "compatibility": "any",
+  "source_url": null,
+  "is_bundled": true,
+  "origin": "bundled",
+  "tags": [
+    "bundled",
+    "ume"
+  ],
+  "raw_url": null,
+  "ume_install": "bundled"
+}

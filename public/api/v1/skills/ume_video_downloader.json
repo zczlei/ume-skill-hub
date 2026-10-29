@@ -1,10 +1,10 @@
 {
   "name": "ume_video_downloader",
   "title": "Ume Video Downloader",
-  "description": "下载公开视频链接。用户说「下载这个视频」「帮我存一下这个 TikTok/YouTube」时使用 ume_video_downloader。",
+  "description": "下载公开视频链接，或 attach_for_model 后给模型看。用户说「下载这个视频」或分析非 YouTube/B站链接时使用。国内抖音请用 ume_douyin_download。",
   "category": "media",
   "license": "AGPL-3.0",
-  "size_kb": 1,
+  "size_kb": 2,
   "compatibility": "any",
   "source_url": null,
   "is_bundled": true,
